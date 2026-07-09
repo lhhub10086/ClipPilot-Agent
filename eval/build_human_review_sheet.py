@@ -29,7 +29,7 @@ def build_sheet(raw_results_path: Path, output_path: Path, seed: int = 2026) -> 
                 "category": result["category"],
                 "language": result["language"],
                 "intent": "",
-                "artifact_dir": "",
+                "artifact_dir": f"eval/outputs/artifacts/{output_id}",
                 "task_completion_score": "",
                 "coherence_score": "",
                 "sentence_integrity_score": "",
@@ -37,8 +37,9 @@ def build_sheet(raw_results_path: Path, output_path: Path, seed: int = 2026) -> 
                 "subtitle_accuracy_score": "",
                 "rough_cut_usability_score": "",
                 "overall_score": "",
-                "decision": "",
-                "comments": "",
+                "human_decision": "",
+                "reviewer_notes": "",
+                "reviewer_id": "",
             }
         )
     random.Random(seed).shuffle(rows)

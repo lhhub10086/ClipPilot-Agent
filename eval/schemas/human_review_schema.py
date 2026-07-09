@@ -12,6 +12,7 @@ HUMAN_REVIEW_FIELDS = [
     "subtitle_accuracy_score",
     "rough_cut_usability_score",
     "overall_score",
-    "decision",
-    "comments",
+    "human_decision",
+    "reviewer_notes",
+    "reviewer_id",
 ]

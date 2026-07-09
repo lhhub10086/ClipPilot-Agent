@@ -1,5 +1,15 @@
 # ClipPilot-Agent
 
+[![CI](https://github.com/lhhub10086/ClipPilot-Agent/actions/workflows/ci.yml/badge.svg)](https://github.com/lhhub10086/ClipPilot-Agent/actions/workflows/ci.yml)
+
+| Status | Value |
+| --- | --- |
+| Version | `v1.0.0-harness` |
+| Tests | `124 passed` |
+| Human evaluation | `pending` |
+| Production-ready | `no` |
+| Current focus | Workflow Harness / Quality Gates |
+
 ClipPilot-Agent is a **Multi-Agent Editing Workflow Harness** for long-form video rough cuts.
 
 It takes a source video, an optional VTT/SRT subtitle file, and a natural-language editing intent, then coordinates a transcript layer, multiple LLM editing agents, quality gates, FFmpeg export, trace logging, replay, and human review artifacts.
@@ -169,6 +179,15 @@ Intermediate assets such as `selected_segments/`, `normalized_segments/`, `temp_
 
 ## 7. Quick Start
 
+## Prerequisites
+
+- Windows 10/11 tested locally; CI runs on Ubuntu.
+- Python 3.12.
+- FFmpeg / ffprobe for real video export and media validation.
+- Optional OpenAI-compatible LLM API for full workflow behavior.
+- Optional ASR backends for videos without external subtitles.
+- External VTT/SRT subtitles are preferred when available.
+
 Install dependencies:
 
 ```powershell
@@ -191,6 +210,16 @@ py -3.12 scripts/run_workflow.py `
   --intent "Create a coherent first-cut review video for students. Keep key concepts, avoid fragmented jumps, and prepare artifacts for human review." `
   --out outputs/demo_run `
   --config configs/config.good_vtt_demo.yaml
+```
+
+Minimal dry-run template:
+
+```powershell
+python scripts/run_workflow.py `
+  --config configs/config.good_vtt_demo.yaml `
+  --video "<video_path>" `
+  --subtitle "<subtitle_path>" `
+  --intent "Generate a coherent first-cut review video."
 ```
 
 Export video only when gates allow it:
@@ -216,6 +245,14 @@ Validate an existing run:
 py -3.12 scripts/validate_run.py --run-dir outputs/demo_run
 ```
 
+Evaluation scaffold:
+
+```powershell
+py -3.12 eval/run_eval.py --limit 5
+py -3.12 eval/build_human_review_sheet.py
+py -3.12 eval/aggregate_results.py
+```
+
 Run tests:
 
 ```powershell
@@ -234,7 +271,7 @@ The failure case is important: the exported media was playable, had audio, and w
 
 Current evidence is engineering evidence, not a claim that the generated videos are better than a benchmark system.
 
-- Automated tests cover Harness behavior, trace/replay contracts, repair loops, gates, media validation, and output contracts.
+- Automated tests cover Harness behavior, trace/replay contracts, repair loops, gates, media validation, evaluation scaffolding, and output contracts.
 - Good VTT case: transcript, coherence, policy, and media gates can allow a valid first-cut export flow.
 - Bad ASR case: transcript quality and lexical-risk gates can block or narrow unsafe editing scope.
 - Judge failed -> Editor repair -> Judge re-check is represented in the repair-loop artifacts.
@@ -256,7 +293,7 @@ Current evidence is engineering evidence, not a claim that the generated videos 
 
 The current automated test suite covers schemas, Harness behavior, transcript gates, multi-agent repair, policy gates, media validation, task coverage, UTF-8 checklist output, and output contracts.
 
-Current result: `107 passed` before adding the evaluation scaffold; run `py -3.12 -m pytest tests/ -q` for the latest count.
+Current result: `124 passed`.
 
 This test result validates engineering behavior and gates. It does not prove video content quality is better than another algorithm.
 
@@ -285,3 +322,7 @@ It is not:
 - an end-to-end trained video summarization model;
 - a replacement for human editors;
 - a system that claims public benchmark or production-level superiority.
+
+## 13. References / Acknowledgements
+
+ClipPilot-Agent was inspired by FireRed-OpenStoryline's high-level architecture ideas: natural-language intent, LLM planning, tool orchestration, editing primitives, state, and review-oriented workflow design. FireRed-OpenStoryline is not vendored into this repository, and the current mainline does not import or depend on a local third-party checkout. If code is reused in the future, it should be added only with explicit license and attribution handling.

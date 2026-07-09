@@ -3,6 +3,7 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+.venv-clean/
 
 data/
 
@@ -11,6 +12,11 @@ eval/outputs/*
 !eval/outputs/.gitkeep
 models/
 cache/
+
+FireRed-OpenStoryline/
+app/
+archive/
+archive_before_cleanup/
 *.mp4
 *.mov
 *.avi

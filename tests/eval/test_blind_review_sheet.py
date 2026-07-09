@@ -23,3 +23,5 @@ def test_blind_review_sheet_hides_system_name(tmp_path):
     assert "system_name" not in text
     assert "multi_agent_harness" not in text
     assert "output_id" in text
+    assert "human_decision" in text
+    assert "reviewer_id" in text
