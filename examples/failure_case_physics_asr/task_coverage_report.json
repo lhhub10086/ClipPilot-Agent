@@ -1,0 +1,62 @@
+{
+  "task_coverage_valid": false,
+  "content_sufficiency_valid": false,
+  "coverage_score": 0.562,
+  "required_content_goals": [
+    {
+      "goal": "初高中物理的区别与联系",
+      "covered": true,
+      "evidence_segment_ids": [
+        "segment_001"
+      ],
+      "optional": false
+    },
+    {
+      "goal": "高中物理学习内容或知识结构",
+      "covered": true,
+      "evidence_segment_ids": [
+        "segment_001"
+      ],
+      "optional": false
+    },
+    {
+      "goal": "学习方法提醒",
+      "covered": false,
+      "evidence_segment_ids": [],
+      "optional": false
+    }
+  ],
+  "optional_content_goals": [
+    {
+      "goal": "典型例题",
+      "covered": true,
+      "evidence_segment_ids": [
+        "segment_001"
+      ],
+      "optional": true
+    },
+    {
+      "goal": "易错点",
+      "covered": false,
+      "evidence_segment_ids": [],
+      "optional": true
+    }
+  ],
+  "narrative_roles": {
+    "introduction": true,
+    "core_explanation": false,
+    "method_or_example": false,
+    "closing_or_summary": false
+  },
+  "timeline_duration": 20.0,
+  "segment_count": 1,
+  "degenerate_output": true,
+  "degenerate_reasons": [
+    "single_segment_only",
+    "insufficient_topic_coverage",
+    "no_core_explanation",
+    "no_closing",
+    "too_short_for_review_task"
+  ],
+  "recommendation": "repair_or_targeted_manual_review_required"
+}

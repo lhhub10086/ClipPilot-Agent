@@ -1,0 +1,769 @@
+{
+  "raw_subtitle_path": "outputs\\asr_cache\\91cb993b715d0bdec8bf0194b14aa56a.vtt",
+  "raw_cue_count": 1531,
+  "refined_cue_count": 698,
+  "sentence_unit_count": 698,
+  "semantic_block_count": 125,
+  "merge_count": 833,
+  "split_count": 0,
+  "traditional_to_simplified": true,
+  "keyword_corrections": [
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "讲没有意义",
+      "to": "讲这些没有意义"
+    },
+    {
+      "from": "一进二后",
+      "to": "一节课"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "海底堰",
+      "to": "海淀"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "立合电",
+      "to": "力和电"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "生煙",
+      "to": "声学"
+    },
+    {
+      "from": "時算",
+      "to": "磁学"
+    },
+    {
+      "from": "代理",
+      "to": "电磁"
+    },
+    {
+      "from": "時算",
+      "to": "磁学"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "生煙",
+      "to": "声学"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "立合电",
+      "to": "力和电"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    },
+    {
+      "from": "traditional_or_spacing",
+      "to": "normalized"
+    }
+  ],
+  "domain_glossary": [
+    "初中物理",
+    "高中物理",
+    "区别和联系",
+    "物理知识",
+    "加速度",
+    "速度",
+    "位移",
+    "受力分析",
+    "牛顿运动定律",
+    "运动学",
+    "标量",
+    "矢量",
+    "例题",
+    "易错点"
+  ],
+  "avg_raw_cue_duration": 1.658,
+  "avg_refined_cue_duration": 3.428,
+  "avg_sentence_duration": 3.428,
+  "p50_sentence_duration": 2.0,
+  "p90_sentence_duration": 7.0,
+  "sentence_under_3s_ratio": 0.542,
+  "sentence_over_15s_ratio": 0.009,
+  "multi_thought_sentence_ratio": 0.004,
+  "sentence_completeness_score": 0.84,
+  "unresolved_asr_error_count": 203,
+  "correction_count": 485,
+  "low_confidence_correction_count": 79,
+  "subtitle_judge_score": 0.92,
+  "subtitle_judge_passed": true,
+  "refinement_backend": "llm_with_rule_preprocess",
+  "llm_called": true,
+  "llm_repair_rounds": 0,
+  "short_cue_ratio": 0.542,
+  "long_cue_ratio": 0.007,
+  "timing_precision": "coarse",
+  "timing_source_distribution": {
+    "raw_asr_cue_boundaries": 698
+  },
+  "language": "zh",
+  "unresolved_items": [
+    {
+      "source_cue_id": "cue_0015",
+      "raw_text": "你们數量之后，大家都是信奧义的。",
+      "reason": "语义可能不完整或ASR错误，'数量之后'和'信奥义'含义不明，需人工确认"
+    },
+    {
+      "source_cue_id": "cue_0019",
+      "raw_text": "那么我们如何去把高中物理学校",
+      "reason": "句子可能不完整，'把高中物理学校'疑似缺失谓语或宾语，需人工确认"
+    },
+    {
+      "source_cue_id": "cue_0021",
+      "raw_text": "信在什么地方",
+      "reason": "'信'可能为ASR错误，结合上下文可能应为'心'或'关键'，需人工确认"
+    },
+    {
+      "source_cue_id": "cue_0053",
+      "raw_text": "物理的基本性",
+      "reason": "句子不完整，可能为'物理的基本性质'，但缺少确认"
+    },
+    {
+      "window_index": 6,
+      "reason": "LLM JSON parse failed: Unterminated string starting at: line 218 column 24 (char 5191); content={\n  \"sentence_units\": [\n    {\n      \"source_cue_ids\": [\"cue_0093\"],\n      \"refined_text\": \"一个初始的认知。\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0094\", \"cue_0095\"],\n      \"refined_text\": \"说说说，要不是说我一个人。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"說說說\",\n          \"corrected\": \"说说说\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0096\", \"cue_0097\"],\n      \"refined_text\": \"来沾菜你们啊，什么叫牙肠？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"來沾菜你们啊\",\n          \"corrected\": \"来沾菜你们啊\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"牙腸\",\n          \"corrected\": \"牙肠\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0098\", \"cue_0099\", \"cue_0100\"],\n      \"refined_text\": \"对不对？我们张老师肯定用沾菜你们，对不对？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"張老師\",\n          \"corrected\": \"张老师\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0101\", \"cue_0102\"],\n      \"refined_text\": \"那不可能用别的东西沾你们。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"別的東西\",\n          \"corrected\": \"别的东西\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0103\", \"cue_0104\"],\n      \"refined_text\": \"为什么呀？沾着菜你这个对不对？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"沾著菜\",\n          \"corrected\": \"沾着菜\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0105\", \"cue_0106\", \"cue_0107\"],\n      \"refined_text\": \"学了牙肠，包含什么牙肠？包含什么牙肠？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"牙腸\",\n          \"corrected\": \"牙肠\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0108\", \"cue_0109\", \"cue_0110\", \"cue_0111\"],\n      \"refined_text\": \"过体牙肠，越牙肠，七点，对不对？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"過体牙腸\",\n          \"corrected\": \"过体牙肠\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"越牙腸\",\n          \"corrected\": \"越牙肠\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0112\", \"cue_0113\", \"cue_0114\"],\n      \"refined_text\": \"那牙肠，如果我们不喜欢初中物理。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"牙腸\",\n          \"corrected\": \"牙肠\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"不喜歡\",\n          \"corrected\": \"不喜欢\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0115\", \"cue_0116\"],\n      \"refined_text\": \"我觉得应该是最难的就是什么牙肠？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"我覺得應該是\",\n          \"corrected\": \"我觉得应该是\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"牙腸\",\n          \"corrected\": \"牙肠\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0117\", \"cue_0118\"],\n      \"refined_text\": \"福利？不是福利，对不对？\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0119\", \"cue_0120\", \"cue_0121\"],\n      \"refined_text\": \"来我问问大家，你们谁能知道我们？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"來我问问大家\",\n          \"corrected\": \"来我问问大家\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"你們誰能知道\",\n          \"corrected\": \"你们谁能知道\",\n          \"reason\": \"简体字转换\",\n          \"confidence\": 1.0\n        }\n      ]\n    }\n  ],\n  \"unresolved_items\": [\n    {\n      \"source_cue_id\": \"cue_0096\",\n      \"raw_text\": \"來沾菜你们啊\",\n      \"reason\": \"疑似ASR错误，'沾菜'可能为方言或误识，无法确定正确词\"\n    },\n    {\n      \"source_cue_id\": \"cue_0097\",\n      \"raw_text\": \"什么叫牙腸\",\n      \"reason\": \"疑似ASR错误，'牙肠'可能为术语或误识，无法确定正确词\"\n    },\n    {\n      \"source_cue_id\": \"cue_0100\",\n      \"raw_text\": \"沾菜你们对不对\",\n      \"reason\": \"疑似ASR错误，'沾菜'可能为方言或误识，无法确定正确词\"\n    },\n    {\n      \"source_cue_id\": \"cue_0104\",\n      \"raw_text\": \"沾著菜你这个对不对\",\n      \"reason\": \"疑似ASR错误，'沾菜'可能为方言或误识，无法确定正确词\"\n    },\n    {\n      \"source_cue_id\": \"cue_0105\",\n      \"raw_text\": \"学了牙腸\",\n      \"reason\": \"疑似ASR错误，'牙肠'可能为术语或误识，无法确定正确词\"\n    },\n    {\n      \"source_cue_id\": \"cue_0106\",\n      \"raw_text\": \"包含什么牙腸\",\n      \"reason\": \"疑似ASR错误，'牙肠'可能为术语或误识，无法确定正确词\"\n    },\n    {\n      \"source_cue_id\": \"cue_0107\",\n      \"raw_text\": \"包含什么牙腸\",\n      \"reason\": \"疑似ASR错误，'牙肠'可能为术语或误识，无法确定正确词\"\n    },\n    {\n      \"source_cue_id\": \"cue_0108\",\n      \"raw_text\": \"過体牙腸\",\n      \"reason\": \"疑似ASR错误，'过体牙肠'可能为术语或误识，无法确定正确词\"\n    },\n    {\n      \"source_cue_id\": \"cue_"
+    },
+    {
+      "source_cue_id": "cue_0137",
+      "raw_text": "肉葉金魚盤",
+      "reason": "ASR错误，无法确定正确内容，疑似无关或错误"
+    },
+    {
+      "window_index": 8,
+      "reason": "LLM JSON parse failed: Expecting property name enclosed in double quotes: line 225 column 35 (char 5405); content={\n  \"sentence_units\": [\n    {\n      \"source_cue_ids\": [\"cue_0155\"],\n      \"refined_text\": \"对不对？\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0156\"],\n      \"refined_text\": \"基本上不能够设计。\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0157\"],\n      \"refined_text\": \"对。\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0158\"],\n      \"refined_text\": \"然后第二个，\",\n      \"sentence_complete\": false,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0159\"],\n      \"refined_text\": \"我们对中网的其实就是什么呀？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"中網\",\n          \"corrected\": \"中网\",\n          \"reason\": \"ASR错误，应为'中网'（可能指'中间网络'或特定术语，但保留原词）\",\n          \"confidence\": 0.6\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0160\", \"cue_0161\"],\n      \"refined_text\": \"就是通过物体的处理什么状态？\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0162\"],\n      \"refined_text\": \"福产条件。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"福產條件\",\n          \"corrected\": \"浮产条件\",\n          \"reason\": \"ASR错误，结合上下文应为'浮产条件'（浮力产生条件）\",\n          \"confidence\": 0.7\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0163\"],\n      \"refined_text\": \"对的。\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0164\", \"cue_0165\"],\n      \"refined_text\": \"福产条件就是漂活血活好什么样？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"福產條件\",\n          \"corrected\": \"浮产条件\",\n          \"reason\": \"ASR错误，应为'浮产条件'\",\n          \"confidence\": 0.7\n        },\n        {\n          \"original\": \"漂活血活好什么樣\",\n          \"corrected\": \"漂浮或悬浮什么样\",\n          \"reason\": \"ASR错误，结合上下文应为'漂浮或悬浮什么样'\",\n          \"confidence\": 0.6\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0166\"],\n      \"refined_text\": \"和产点。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"和產点\",\n          \"corrected\": \"和沉点\",\n          \"reason\": \"ASR错误，可能为'和沉点'（沉浮条件）\",\n          \"confidence\": 0.5\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0167\", \"cue_0168\"],\n      \"refined_text\": \"其实这个福产条件其实就是设计到什么？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"福產條件\",\n          \"corrected\": \"浮产条件\",\n          \"reason\": \"ASR错误，应为'浮产条件'\",\n          \"confidence\": 0.7\n        },\n        {\n          \"original\": \"設計\",\n          \"corrected\": \"涉及\",\n          \"reason\": \"ASR错误，应为'涉及'\",\n          \"confidence\": 0.8\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0169\"],\n      \"refined_text\": \"受理分析。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"受理分析\",\n          \"corrected\": \"受力分析\",\n          \"reason\": \"ASR错误，应为'受力分析'\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0170\"],\n      \"refined_text\": \"对。\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0171\", \"cue_0172\", \"cue_0173\"],\n      \"refined_text\": \"福利分析。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"福利分析\",\n          \"corrected\": \"浮力分析\",\n          \"reason\": \"ASR错误，应为'浮力分析'\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0174\", \"cue_0175\"],\n      \"refined_text\": \"是实力的，是不是？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"是實力的\",\n          \"corrected\": \"是受力的\",\n          \"reason\": \"ASR错误，应为'是受力的'\",\n          \"confidence\": 0.8\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0176\", \"cue_0177\", \"cue_0178\"],\n      \"refined_text\": \"第二个方法就是受理分析，也就是\",\n      \"sentence_complete\": false,\n      \"corrections\": [\n        {\n          \"original\": \"受理分析\",\n          \"corrected\": \"受力分析\",\n          \"reason\": \"ASR错误，应为'受力分析'\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0179\", \"cue_0180\"],\n      \"refined_text\": \"根据福产条件福利分析。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"福產條件\",\n          \"corrected\": \"浮产条件\",\n          \"reason\": \"ASR错误，应为'浮产条件'\",\n          \"confidence\": 0.7\n        },\n        {\n          \"original\": \"福利分析\",\n          \"corrected\": \"浮力分析\",\n          \"reason\": \"ASR错误，应为'浮力分析'\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0181\"],\n      \"refined_text\": \"第三个方法呢？\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0182\", \"cue_0183\", \"cue_0184\"],\n      \"refined_text\": \"对呀，就是两次测量之差。\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0185\", \"cue_0186\", \"cue_0187\"],\n      \"refined_text\": \"这个一般时候在实验中经常考虑。\",\n      \"sentence_complete\": true,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0188\"],\n      \"refined_text\": \"我告诉你，\",\n      \"sentence_complete\": false,\n      \"corrections\": []\n    }\n  ],\n  \"unresolved_items\": [\n    {\n      \"source_cue_id\": \"cue_0159\",\n      \"raw_text\": \"我们对中網的其實就是什么呀\",\n      \"reason\": \"术语'中網'含义不明确，可能为ASR错误，但无法确定正确形式\"\n    },\n    {\n      \"source_cue_id\": \"cue_0162\",\n     "
+    },
+    {
+      "source_cue_id": "cue_0216",
+      "raw_text": "要刑法的護理教師",
+      "reason": "语义不明确，疑似ASR错误，无法确定正确表述"
+    },
+    {
+      "source_cue_id": "cue_0216",
+      "raw_text": "要刑法的護理教師",
+      "reason": "ASR错误可能性高，'刑法'可能为'进行'或'讲法'，但无法确定"
+    },
+    {
+      "source_cue_id": "cue_0217",
+      "raw_text": "快加了",
+      "reason": "可能为'快讲'或'快加'，但上下文不清晰"
+    },
+    {
+      "source_cue_id": "cue_0220",
+      "raw_text": "快加好了",
+      "reason": "可能为'快讲好了'，但无法确认"
+    },
+    {
+      "source_cue_id": "cue_0230",
+      "raw_text": "董英",
+      "reason": "可能为人名或平台名，但无法确认"
+    },
+    {
+      "source_cue_id": "cue_0233",
+      "raw_text": "你都我学的",
+      "reason": "可能为'你都是我学的'，但语法不通，ASR错误可能性高"
+    },
+    {
+      "source_cue_id": "cue_0240",
+      "raw_text": "次次量度打法",
+      "reason": "可能为'次次亮度打法'或'次次量度打罚'，但无法确定"
+    },
+    {
+      "source_cue_id": "cue_0254",
+      "raw_text": "積極積",
+      "reason": "语义不明，疑似ASR错误，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0283",
+      "raw_text": "壓上",
+      "reason": "語義不明，疑似ASR錯誤，無法確定正確詞語"
+    },
+    {
+      "source_cue_id": "cue_0284",
+      "raw_text": "福利",
+      "reason": "語義不明，疑似ASR錯誤，無法確定正確詞語"
+    },
+    {
+      "source_cue_id": "cue_0287",
+      "raw_text": "一盒",
+      "reason": "語義不明，疑似ASR錯誤，無法確定正確詞語"
+    },
+    {
+      "source_cue_id": "cue_0291",
+      "raw_text": "這我都被人滑上了嗎",
+      "reason": "語義不明，疑似ASR錯誤，無法確定正確詞語"
+    },
+    {
+      "source_cue_id": "cue_0294",
+      "raw_text": "國家衛星衛星發生",
+      "reason": "語義不明，疑似ASR重複或錯誤，無法確定正確詞語"
+    },
+    {
+      "source_cue_id": "cue_0311",
+      "raw_text": "你福利幹嘛",
+      "reason": "ASR错误：'福利'疑似应为'物理'，但上下文不明确，保留原样"
+    },
+    {
+      "source_cue_id": "cue_0317",
+      "raw_text": "我会福利",
+      "reason": "ASR错误：'福利'疑似应为'物理'，但上下文不明确，保留原样"
+    },
+    {
+      "source_cue_id": "cue_0321",
+      "raw_text": "给你",
+      "reason": "ASR错误：'护照给你'可能为'护照给你'或'护照给你'，但上下文不明确，保留原样"
+    },
+    {
+      "source_cue_id": "cue_0331",
+      "raw_text": "咱们再看看电",
+      "reason": "句子不完整，可能为ASR截断或口误，无法确定完整语义"
+    },
+    {
+      "source_cue_id": "cue_0332",
+      "raw_text": "咱们用电的电",
+      "reason": "重复且不完整，可能为ASR错误或口误，无法确定正确表述"
+    },
+    {
+      "source_cue_id": "cue_0335",
+      "raw_text": "幫忙",
+      "reason": "可能为ASR错误或方言，上下文不明确"
+    },
+    {
+      "source_cue_id": "cue_0336",
+      "raw_text": "你们就行",
+      "reason": "句子不完整，可能缺少谓语或宾语"
+    },
+    {
+      "source_cue_id": "cue_0359",
+      "raw_text": "三十磅",
+      "reason": "可能为术语或专有名词，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0369",
+      "raw_text": "电电話",
+      "reason": "可能为ASR错误，但无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0381",
+      "raw_text": "R的幽理愛",
+      "reason": "可能为公式或术语，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0383",
+      "raw_text": "R和幽合愛",
+      "reason": "可能为公式或术语，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0383",
+      "raw_text": "R和幽合愛",
+      "reason": "无法确定正确内容，疑似ASR错误"
+    },
+    {
+      "source_cue_id": "cue_0395",
+      "raw_text": "微觀的大式",
+      "reason": "'大式'可能为'表达式'或'大式'，但无法确认"
+    },
+    {
+      "source_cue_id": "cue_0415",
+      "raw_text": "稍微比中",
+      "reason": "可能缺失'初'字，但无法确定"
+    },
+    {
+      "source_cue_id": "cue_0422",
+      "raw_text": "我们高度的电池",
+      "reason": "'高度的'可能为'高中的'，但原文如此"
+    },
+    {
+      "window_index": 19,
+      "reason": "LLM request failed: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)'))); attempts=3"
+    },
+    {
+      "source_cue_id": "cue_0496",
+      "raw_text": "一啊学",
+      "reason": "ASR错误，无法确定正确词语，可能为'一开始学'或'一年级学'"
+    },
+    {
+      "source_cue_id": "cue_0504",
+      "raw_text": "生天還学不学",
+      "reason": "ASR错误，'生天'可能为'声学'或'声天'，但上下文不明确"
+    },
+    {
+      "source_cue_id": "cue_0505",
+      "raw_text": "生天有啥学的",
+      "reason": "ASR错误，同上"
+    },
+    {
+      "source_cue_id": "cue_0506",
+      "raw_text": "生意",
+      "reason": "ASR错误，可能为'声学'或'声音'，但上下文不明确"
+    },
+    {
+      "source_cue_id": "cue_0529",
+      "raw_text": "不辦",
+      "reason": "疑似ASR错误，但无法确定正确内容，根据上下文推测为'举手'，但置信度不高"
+    },
+    {
+      "source_cue_id": "cue_0554",
+      "raw_text": "咱们研究上",
+      "reason": "句子不完整，可能缺失宾语"
+    },
+    {
+      "source_cue_id": "cue_0555",
+      "raw_text": "知道嗎",
+      "reason": "语气词，与上文衔接不明确"
+    },
+    {
+      "source_cue_id": "cue_0556",
+      "raw_text": "運",
+      "reason": "重复发音，可能为口误或ASR错误"
+    },
+    {
+      "source_cue_id": "cue_0557",
+      "raw_text": "運",
+      "reason": "重复发音，可能为口误或ASR错误"
+    },
+    {
+      "source_cue_id": "cue_0558",
+      "raw_text": "運",
+      "reason": "重复发音，可能为口误或ASR错误"
+    },
+    {
+      "source_cue_id": "cue_0560",
+      "raw_text": "学運動学",
+      "reason": "句子不完整，缺少主语或上下文"
+    },
+    {
+      "source_cue_id": "cue_0562",
+      "raw_text": "我们將会学习",
+      "reason": "句子不完整，缺少宾语"
+    },
+    {
+      "source_cue_id": "cue_0582",
+      "raw_text": "不管是我们運動力",
+      "reason": "句子不完整，可能为‘运动力学’或‘运动与力’，但原文不明确，需进一步确认。"
+    },
+    {
+      "source_cue_id": "cue_0596",
+      "raw_text": "那我给大家学的意思吧",
+      "reason": "ASR可能错误，'学的意思'疑似应为'解释一下意思'，但缺乏足够上下文确认"
+    },
+    {
+      "window_index": 25,
+      "reason": "LLM JSON parse failed: Unterminated string starting at: line 221 column 23 (char 5543); content={\n  \"sentence_units\": [\n    {\n      \"source_cue_ids\": [\"cue_0605\", \"cue_0606\", \"cue_0607\"],\n      \"refined_text\": \"一定要去考慮的就是它的動力，對不對？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"一定要去考慮的\",\n          \"corrected\": \"一定要去考慮的\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"就是它的動力\",\n          \"corrected\": \"就是它的動力\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"对不对\",\n          \"corrected\": \"對不對\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0608\", \"cue_0609\", \"cue_0610\"],\n      \"refined_text\": \"動力，那麼它動力就會產生什麼樣？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"動力\",\n          \"corrected\": \"動力\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"那么它動力\",\n          \"corrected\": \"那麼它動力\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"就会產生什么樣\",\n          \"corrected\": \"就會產生什麼樣\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0611\", \"cue_0612\", \"cue_0613\", \"cue_0614\", \"cue_0615\"],\n      \"refined_text\": \"你們還覺得買動力大的，還動力什麼？動力大的，動力大。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"你们還覺得\",\n          \"corrected\": \"你們還覺得\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"買動力大的\",\n          \"corrected\": \"買動力大的\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"還動力什么\",\n          \"corrected\": \"還動力什麼\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"動力大的\",\n          \"corrected\": \"動力大的\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"動力大\",\n          \"corrected\": \"動力大\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0616\", \"cue_0617\", \"cue_0618\", \"cue_0619\", \"cue_0620\", \"cue_0621\", \"cue_0622\"],\n      \"refined_text\": \"它會幹嘛你知道嗎？它會讓你的汽車能夠非常快的幹嘛呀？提速。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"它会\",\n          \"corrected\": \"它會\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"幹嘛你知道嗎\",\n          \"corrected\": \"幹嘛你知道嗎\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"它会讓你的汽車\",\n          \"corrected\": \"它會讓你的汽車\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"能夠\",\n          \"corrected\": \"能夠\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"非常快的\",\n          \"corrected\": \"非常快的\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"幹嘛呀\",\n          \"corrected\": \"幹嘛呀\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"提速\",\n          \"corrected\": \"提速\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0623\", \"cue_0624\", \"cue_0625\"],\n      \"refined_text\": \"大家知道這個很重要的提速就是加速。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"大家知道\",\n          \"corrected\": \"大家知道\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"这个很重要的提速\",\n          \"corrected\": \"這個很重要的提速\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"就是加速\",\n          \"corrected\": \"就是加速\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0626\", \"cue_0627\", \"cue_0628\", \"cue_0629\", \"cue_0630\", \"cue_0631\", \"cue_0632\", \"cue_0633\"],\n      \"refined_text\": \"我們有時候買汽車，它會告訴你我們這個車叫什麼？零百加速。零百加速什麼意思？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"我们有時候\",\n          \"corrected\": \"我們有時候\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"你是買汽車\",\n          \"corrected\": \"買汽車\",\n          \"reason\": \"刪除多餘的「你是」以符合語境\",\n          \"confidence\": 0.8\n        },\n        {\n          \"original\": \"它会告訴你\",\n          \"corrected\": \"它會告訴你\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"我们这个車\",\n          \"corrected\": \"我們這個車\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"叫什么\",\n          \"corrected\": \"叫什麼\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"零百加速\",\n          \"corrected\": \"零百加速\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"零百加速\",\n          \"corrected\": \"零百加速\",\n          \"reason\": \"保持原句\",\n          \"confidence\": 1.0\n        },\n        {\n          \"original\": \"什么意思\",\n          \"corrected\": \"什麼意思\",\n          \"reason\": \"轉換為繁體字\",\n          \"confidence\": 1.0\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0634\", \"cue_0635\", \"cue_0636\", \"cue_0637\", \"cue_0638\", \"cue_0639\", \"cue_0640\", \"cue_0641\", \"cue_0642\", \"cue_0643\", \"cue_0644\", \"cue_0645\"],\n      \"refined_text\": \"零千元。零千元。零千元。零千元。零千元。"
+    },
+    {
+      "window_index": 26,
+      "reason": "subtitle refiner returned no valid sentence units"
+    },
+    {
+      "source_cue_id": "cue_0667",
+      "raw_text": "零千元",
+      "reason": "数字表达异常，可能为术语或误识别，无法确定正确形式。"
+    },
+    {
+      "source_cue_id": "cue_0669",
+      "raw_text": "你们觉得好吃吗?",
+      "reason": "与上下文（车辆品牌）不协调，可能为ASR错误或话题跳跃。"
+    },
+    {
+      "source_cue_id": "cue_0671",
+      "raw_text": "大叔是好吃吗?",
+      "reason": "语义不通，可能为ASR错误或口语跳跃。"
+    },
+    {
+      "source_cue_id": "cue_0675",
+      "raw_text": "你们对车额该比较认知还有高",
+      "reason": "ASR严重错误，无法确定正确文本，可能为'你们对车的认知比较高'，但缺乏上下文确认。"
+    },
+    {
+      "source_cue_id": "cue_0679",
+      "raw_text": "黄玛",
+      "reason": "可能为'黄马'或人名，但无上下文，无法确定。"
+    },
+    {
+      "source_cue_id": "cue_0681",
+      "raw_text": "黄玛我们该找到",
+      "reason": "ASR错误，'黄玛'含义不明，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0683",
+      "raw_text": "黄玛就是第一个",
+      "reason": "ASR错误，'黄玛'含义不明，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0686",
+      "raw_text": "一亚银",
+      "reason": "疑似专有名词或音译，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0692",
+      "raw_text": "创造我的该女友",
+      "reason": "ASR错误，含义不明，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0693",
+      "raw_text": "有缘不如给忙活一会",
+      "reason": "ASR错误，含义不明，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0702",
+      "raw_text": "两样的",
+      "reason": "ASR错误，含义不明，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0705",
+      "raw_text": "然后说是一个加速七速快",
+      "reason": "ASR错误，'加速七速快'疑似术语误识别，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0707",
+      "raw_text": "真是包袍对不对",
+      "reason": "ASR错误，'包袍'疑似'跑车'等词误识别，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0785",
+      "raw_text": "是团队打了你的",
+      "reason": "语义不明确，无法确定正确表达"
+    },
+    {
+      "window_index": 33,
+      "reason": "LLM JSON parse failed: Expecting property name enclosed in double quotes: line 241 column 38 (char 5600); content={\n  \"sentence_units\": [\n    {\n      \"source_cue_ids\": [\"cue_0788\"],\n      \"refined_text\": \"恭喜你！\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"恭喜你\",\n          \"corrected\": \"恭喜你！\",\n          \"reason\": \"添加句末感叹号，表达祝贺语气。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0789\"],\n      \"refined_text\": \"绝对非常上学物理？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"绝对非常上学物理\",\n          \"corrected\": \"绝对非常上学物理？\",\n          \"reason\": \"添加问号，表示疑问或反问语气。\",\n          \"confidence\": 0.6\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0790\", \"cue_0791\"],\n      \"refined_text\": \"速度的\",\n      \"sentence_complete\": false,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0792\"],\n      \"refined_text\": \"谢谢。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"谢谢\",\n          \"corrected\": \"谢谢。\",\n          \"reason\": \"添加句号，结束句子。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0793\", \"cue_0794\"],\n      \"refined_text\": \"所以说，加速度就是\",\n      \"sentence_complete\": false,\n      \"corrections\": [\n        {\n          \"original\": \"所以说\",\n          \"corrected\": \"所以说，\",\n          \"reason\": \"添加逗号，表示停顿。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0795\", \"cue_0796\", \"cue_0797\"],\n      \"refined_text\": \"描述速度变化什么的物理料快慢？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"描述速度变化什么的物理料\",\n          \"corrected\": \"描述速度变化什么的物理量\",\n          \"reason\": \"ASR错误，'料'应为'量'。\",\n          \"confidence\": 0.7\n        },\n        {\n          \"original\": \"快慢\",\n          \"corrected\": \"快慢？\",\n          \"reason\": \"添加问号，表示疑问。\",\n          \"confidence\": 0.6\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0798\", \"cue_0799\"],\n      \"refined_text\": \"那我再来讲，如果一个物体\",\n      \"sentence_complete\": false,\n      \"corrections\": [\n        {\n          \"original\": \"那我再来讲\",\n          \"corrected\": \"那我再来讲，\",\n          \"reason\": \"添加逗号，表示停顿。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0800\"],\n      \"refined_text\": \"它加速度大\",\n      \"sentence_complete\": false,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0801\", \"cue_0802\"],\n      \"refined_text\": \"变化它速度变化什么变化快？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"变化它速度变化什么\",\n          \"corrected\": \"变化它速度变化什么变化快？\",\n          \"reason\": \"合并并添加问号，表示疑问。\",\n          \"confidence\": 0.5\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0803\"],\n      \"refined_text\": \"能变化它速度变化多吗？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"能变化它速度变化多吗\",\n          \"corrected\": \"能变化它速度变化多吗？\",\n          \"reason\": \"添加问号，表示疑问。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0804\"],\n      \"refined_text\": \"不能。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"不能\",\n          \"corrected\": \"不能。\",\n          \"reason\": \"添加句号，结束句子。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0805\"],\n      \"refined_text\": \"多少方快慢？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"多少方快慢\",\n          \"corrected\": \"多少方快慢？\",\n          \"reason\": \"添加问号，表示疑问。\",\n          \"confidence\": 0.6\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0806\"],\n      \"refined_text\": \"是一个物体吗？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"是一个物体吗\",\n          \"corrected\": \"是一个物体吗？\",\n          \"reason\": \"添加问号，表示疑问。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0807\"],\n      \"refined_text\": \"不是。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"不是\",\n          \"corrected\": \"不是。\",\n          \"reason\": \"添加句号，结束句子。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0808\"],\n      \"refined_text\": \"完全\",\n      \"sentence_complete\": false,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0809\"],\n      \"refined_text\": \"加速\",\n      \"sentence_complete\": false,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0810\"],\n      \"refined_text\": \"来\",\n      \"sentence_complete\": false,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0811\"],\n      \"refined_text\": \"听完讲\",\n      \"sentence_complete\": false,\n      \"corrections\": []\n    },\n    {\n      \"source_cue_ids\": [\"cue_0812\", \"cue_0813\"],\n      \"refined_text\": \"加速度大的物体，这个加速度大的物体\",\n      \"sentence_complete\": false,\n      \"corrections\": [\n        {\n          \"original\": \"加速度大的物体\",\n          \"corrected\": \"加速度大的物体，\",\n          \"reason\": \"添加逗号，表示停顿。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0814\"],\n      \"refined_text\": \"它跑的就已经快吗？\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"它跑的就已经快吗\",\n          \"corrected\": \"它跑的就已经快吗？\",\n          \"reason\": \"添加问号，表示疑问。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0815\", \"cue_0816\"],\n      \"refined_text\": \"没有。\",\n      \"sentence_complete\": true,\n      \"corrections\": [\n        {\n          \"original\": \"没有\",\n          \"corrected\": \"没有。\",\n          \"reason\": \"添加句号，结束句子。\",\n          \"confidence\": 0.9\n        }\n      ]\n    },\n    {\n      \"source_cue_ids\": [\"cue_0817\"],\n     "
+    },
+    {
+      "source_cue_id": "cue_0831",
+      "raw_text": "你就尽管帮助",
+      "reason": "ASR错误，修正为'你就尽管放心'，但置信度较低"
+    },
+    {
+      "source_cue_id": "cue_0834",
+      "raw_text": "就已经分算了",
+      "reason": "ASR错误，修正为'就已经分析了'，但置信度较低"
+    },
+    {
+      "source_cue_id": "cue_0854",
+      "raw_text": "微视",
+      "reason": "ASR错误，可能为'米每秒平方'，但置信度较低"
+    },
+    {
+      "source_cue_id": "cue_0854",
+      "raw_text": "微视",
+      "reason": "疑似ASR错误，可能为'微失'或'微时'，但无足够上下文确认"
+    },
+    {
+      "source_cue_id": "cue_0855",
+      "raw_text": "迷迷",
+      "reason": "重复出现，可能为ASR错误或填充词，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0857",
+      "raw_text": "迷迷",
+      "reason": "同上，重复出现，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0858",
+      "raw_text": "迷迷",
+      "reason": "同上，重复出现，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0860",
+      "raw_text": "迷迷",
+      "reason": "同上，重复出现，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0861",
+      "raw_text": "迷迷",
+      "reason": "同上，重复出现，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0862",
+      "raw_text": "迷迷",
+      "reason": "同上，重复出现，无法确定正确形式"
+    },
+    {
+      "source_cue_id": "cue_0863",
+      "raw_text": "迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷。",
+      "reason": "长串重复'迷迷'，可能为ASR错误或噪音，无法确定正确内容"
+    },
+    {
+      "source_cue_id": "cue_0863",
+      "raw_text": "迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷�。",
+      "reason": "文本为大量重复的“迷”字，疑似ASR噪声或填充音，无法还原为有意义内容，保留为未解决项。"
+    },
+    {
+      "source_cue_id": "cue_0880",
+      "raw_text": "学习像我一樣",
+      "reason": "低置信度修正，可能为'像以前一样'或'像我们一样'，需人工确认"
+    }
+  ],
+  "recommendation": "needs_better_asr"
+}

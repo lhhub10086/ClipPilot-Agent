@@ -1,0 +1,26 @@
+# Chinese classroom ASR configuration. Intended for videos without external VTT/SRT.
+mock_mode: false
+llm:
+  required: true
+  provider: openai_compatible
+  model: deepseek-chat
+  api_key_env: LLM_API_KEY
+  base_url_env: LLM_BASE_URL
+  timeout_sec: 30
+  temperature: 0.3
+  max_tokens: 1200
+asr:
+  enabled: true
+  backend: faster-whisper
+  config_name: zh_physics_small
+  model_size: small
+  device: cpu
+  compute_type: int8
+  language: zh
+  task: transcribe
+  initial_prompt: "这是一节中文物理课堂，主题是初中物理到高中物理衔接。关键词包括：初中物理、高中物理、加速度、速度变化、运动学、力学、电学、学习方法、例题、易错点、公式、物理量。请使用简体中文转写。"
+workflow:
+  default_policy_path: configs/workflow_policy.yaml
+  export_video_by_default: false
+  judge_threshold: 0.75
+  max_repair_rounds: 3

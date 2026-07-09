@@ -1,0 +1,17 @@
+HUMAN_REVIEW_FIELDS = [
+    "output_id",
+    "case_id",
+    "category",
+    "language",
+    "intent",
+    "artifact_dir",
+    "task_completion_score",
+    "coherence_score",
+    "sentence_integrity_score",
+    "content_value_score",
+    "subtitle_accuracy_score",
+    "rough_cut_usability_score",
+    "overall_score",
+    "decision",
+    "comments",
+]

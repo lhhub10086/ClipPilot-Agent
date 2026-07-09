@@ -1,0 +1,188 @@
+{
+  "run_completed": true,
+  "input_valid": true,
+  "transcript_valid": true,
+  "content_valid": true,
+  "policy_valid": true,
+  "media_valid": true,
+  "video_export_allowed": true,
+  "video_exported": true,
+  "harness_behavior_valid": true,
+  "blocked_reason": null,
+  "checks": [
+    {
+      "name": "trace_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "workflow_summary_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transcript_quality_report_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transcript_quality_step_recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "transcript_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selector_response_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "editor_timeline_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final_review_transcript_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "judge_response_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "policy_validation_report_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final_duration_within_policy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "segment_durations_within_policy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "segment_count_within_policy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "policy_valid_before_export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export_blocked_when_policy_invalid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "policy_repair_triggered_when_duration_exceeded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export_gate_decision_exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "judge_score_above_threshold_if_allowed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_video_export_when_gate_false",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final_video_exists_when_gate_true_and_requested",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "repair_loop_recorded_if_used",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "repair_loop_triggered_when_judge_failed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "repair_round_outputs_exist",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "editor_timeline_changed_after_repair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "judge_recalled_after_repair",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_direct_block_on_first_judge_failure_when_transcript_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "export_blocked_only_after_max_repair_if_transcript_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final_review_probe_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final_review_visual_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final_review_black_ratio_below_threshold",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "trace_errors": [],
+  "media_probes": {
+    "final_review": {
+      "path": "outputs\\workflow_run_good_vtt_export\\final_review.mp4",
+      "exists": true,
+      "file_size": 2997013,
+      "duration": 57.583,
+      "width": 640,
+      "height": 360,
+      "fps": 23.948,
+      "frame_count": 1379,
+      "has_audio": true,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "black_frame_ratio": 0.0167,
+      "non_black_frame_ratio": 0.9833,
+      "first_valid_frame_time": 0.0,
+      "last_valid_frame_time": 56.581,
+      "valid_visual_duration_estimate": 56.581,
+      "visual_valid": true,
+      "backend": "media_probe",
+      "warnings": []
+    }
+  }
+}

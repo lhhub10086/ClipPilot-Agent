@@ -1,0 +1,224 @@
+{
+  "timeline_items": [
+    {
+      "segment_id": "segment_001",
+      "role": "hook",
+      "source_block_ids": [
+        "block_0002"
+      ],
+      "source_start": 15.36,
+      "source_end": 24.98,
+      "duration": 9.62,
+      "transcript": "The device you’re watching this video on right now is almost certainly running at Gigahertz speeds - that’s billions of instructions executed every second. Which, trust me, is a lot of computation!",
+      "why_included": "Captures attention with relatable gigahertz speeds and sets the stage for performance techniques.",
+      "bridge_before": null,
+      "bridge_after": "接下来我们看看早期如何通过改进晶体管来提升速度。",
+      "expected_viewer_understanding": "Modern CPUs are extremely fast, but this speed required many innovations."
+    },
+    {
+      "segment_id": "segment_002",
+      "role": "core_concept",
+      "source_block_ids": [
+        "block_0003",
+        "block_0004"
+      ],
+      "source_start": 24.98,
+      "source_end": 49.3,
+      "duration": 24.32,
+      "transcript": "In the early days of electronic computing, processors were typically made faster by improving the switching time of the transistors inside the chip - the ones that make up all the logic gates, ALUs and other stuff we’ve talked about over the past few episodes. But just making transistors faster and more efficient only went so far, so processor designers have developed various techniques to boost performance allowing not only simple instructions to run fast, but also performing much more sophisticated operations.",
+      "why_included": "Explains the fundamental approach of improving transistor speed and the need for additional techniques.",
+      "bridge_before": null,
+      "bridge_after": "下面用一个除法例子说明硬件加速的好处。",
+      "expected_viewer_understanding": "Faster transistors helped, but designers needed more tricks to boost performance."
+    },
+    {
+      "segment_id": "segment_003",
+      "role": "example",
+      "source_block_ids": [
+        "block_0006",
+        "block_0007",
+        "block_0008"
+      ],
+      "source_start": 63.69,
+      "source_end": 96.42,
+      "duration": 32.73,
+      "transcript": "We did this by doing many subtractions in a row... so, for example, 16 divided by 4 could be broken down into the smaller problem of 16 minus 4, minus 4, minus 4, minus 4. When we hit zero, or a negative number, we knew that we we’re done. But this approach gobbles up a lot of clock cycles, and isn’t particularly efficient. So most computer processors today have divide as one of the instructions that the ALU can perform in hardware. Of course, this extra circuitry makes the ALU bigger and more complicated to design, but also more capable - a complexity-for-speed tradeoff that has been made many times in computing history.",
+      "why_included": "Concrete example of division via subtraction vs. hardware, illustrating complexity-for-speed tradeoff.",
+      "bridge_before": null,
+      "bridge_after": "现代CPU还有更多专用电路，比如MMX和SSE。",
+      "expected_viewer_understanding": "Adding dedicated hardware speeds up common operations, but increases complexity."
+    },
+    {
+      "segment_id": "segment_004",
+      "role": "explanation",
+      "source_block_ids": [
+        "block_0010",
+        "block_0011",
+        "block_0012"
+      ],
+      "source_start": 108.8,
+      "source_end": 148.549,
+      "duration": 39.749,
+      "transcript": "You may have even heard of processors with MMX, 3DNow!, or SSE. These are processors with additional, fancy circuits that allow them to execute additional, fancy instructions - for things like gaming and encryption. These extensions to the instruction set have grown, and grown over time, and once people have written programs to take advantage of them, it’s hard to remove them. So instruction sets tend to keep getting larger and larger keeping all the old opcodes around for backwards compatibility. The Intel 4004, the first truly integrated CPU, had 46 instructions - which was enough to build a fully functional computer. But a modern computer processor has thousands of different instructions, which utilize all sorts of clever and complex internal circuitry.",
+      "why_included": "Shows how instruction sets grow with extensions like MMX/SSE, and the trend toward backward compatibility.",
+      "bridge_before": null,
+      "bridge_after": "但高速CPU面临一个新问题：内存速度跟不上。",
+      "expected_viewer_understanding": "Instruction sets expand over time, adding specialized instructions while keeping old ones."
+    },
+    {
+      "segment_id": "segment_005",
+      "role": "bridge",
+      "source_block_ids": [
+        "block_0013",
+        "block_0014",
+        "block_0015",
+        "block_0016"
+      ],
+      "source_start": 148.549,
+      "source_end": 196.04,
+      "duration": 47.491,
+      "transcript": "Now, high clock speeds and fancy instruction sets lead to another problem - getting data in and out of the CPU quickly enough. It’s like having a powerful steam locomotive, but no way to shovel in coal fast enough. In this case, the bottleneck is RAM. RAM is typically a memory module that lies outside the CPU. This means that data has to be transmitted to and from RAM along sets of data wires, called a bus. This bus might only be a few centimeters long, and remember those electrical signals are traveling near the speed of light, but when you are operating at gigahertz speeds – that’s billionths of a second – even this small delay starts to become problematic. It also takes time for RAM itself to lookup the address, retrieve the data, and configure itself for output. So a “load from RAM” instruction might take dozens of clock cycles to complete, and during this time the processor is just sitting there idly waiting for the data.",
+      "why_included": "Introduces the memory bottleneck problem, explaining RAM delays and bus limitations.",
+      "bridge_before": null,
+      "bridge_after": "为了解决这个问题，CPU内部引入了缓存。",
+      "expected_viewer_understanding": "RAM is too slow for modern CPUs, causing idle cycles and performance loss."
+    },
+    {
+      "segment_id": "segment_006",
+      "role": "core_concept",
+      "source_block_ids": [
+        "block_0017",
+        "block_0018",
+        "block_0019",
+        "block_0020",
+        "block_0023",
+        "block_0024"
+      ],
+      "source_start": 196.04,
+      "source_end": 274.09,
+      "duration": 78.05,
+      "transcript": "One solution is to put a little piece of RAM right on the CPU -- called a cache. There isn’t a lot of space on a processor’s chip, so most caches are just kilobytes or maybe megabytes in size, where RAM is usually gigabytes. Having a cache speeds things up in a clever way. When the CPU requests a memory location from RAM, the RAM can transmit not just one single value, but a whole block of data. This takes only a little bit more time than transmitting a single value, but it allows this data block to be saved into the cache. This tends to be really useful because computer data is often arranged and processed sequentially. For example, let say the processor is totalling up daily sales for a restaurant. It starts by fetching the first transaction from RAM at memory location 100. Because the cache is so close to the processor, it can typically provide the data in a single clock cycle -- no waiting required. This speeds things up tremendously over having to go back and forth to RAM every single time. When data requested in RAM is already stored in the cache like this it’s called a cache hit, and if the data requested isn’t in the cache, so you have to go to RAM, it’s a called a cache miss.",
+      "why_included": "Explains cache concept, how it works with block transfers, cache hits/misses, and speed benefits.",
+      "bridge_before": null,
+      "bridge_after": "缓存还能用作临时存储，但会带来数据一致性问题。",
+      "expected_viewer_understanding": "Cache stores frequently used data close to CPU, dramatically reducing wait times."
+    },
+    {
+      "segment_id": "segment_007",
+      "role": "explanation",
+      "source_block_ids": [
+        "block_0025",
+        "block_0026",
+        "block_0027",
+        "block_0028",
+        "block_0029"
+      ],
+      "source_start": 274.09,
+      "source_end": 333.26,
+      "duration": 59.17,
+      "transcript": "The cache can also be used like a scratch space, storing intermediate values when performing a longer, or more complicated calculation. Continuing our restaurant example, let’s say the processor has finished totalling up all of the sales for the day, and wants to store the result in memory address 150. Like before, instead of going back all the way to RAM to save that value, it can be stored in cached copy, which is faster to save to, and also faster to access later if more calculations are needed. But this introduces an interesting problem -- the cache’s copy of the data is now different to the real version stored in RAM. This mismatch has to be recorded, so that at some point everything can get synced up. For this purpose, the cache has a special flag for each block of memory it stores, called the dirty bit -- which might just be the best term computer scientists have ever invented. Most often this synchronization happens when the cache is full, but a new block of memory is being requested by the processor. Before the cache erases the old block to free up space, it checks its dirty bit, and if it’s dirty, the old block of data is written back to RAM before loading in the new block.",
+      "why_included": "Covers cache as scratch space, dirty bit, and synchronization with RAM.",
+      "bridge_before": null,
+      "bridge_after": "除了缓存，另一种提升性能的方法是流水线。",
+      "expected_viewer_understanding": "Cache can hold modified data; dirty bit ensures consistency when cache is full."
+    },
+    {
+      "segment_id": "segment_008",
+      "role": "core_concept",
+      "source_block_ids": [
+        "block_0030",
+        "block_0033",
+        "block_0035",
+        "block_0036",
+        "block_0038"
+      ],
+      "source_start": 333.26,
+      "source_end": 428.46,
+      "duration": 95.2,
+      "transcript": "Another trick to boost cpu performance is called instruction pipelining. Imagine you have to wash an entire hotel’s worth of sheets, but you’ve only got one washing machine and one dryer. But, even with this magic clothes dryer, you can speed things up even more if you parallelize your operation. As before, you start off putting one batch of sheets in the washer. Now you’ve got both machines going at once. Wait 30 minutes, and one batch is now done, one batch is half done, and another is ready to go in. This effectively doubles your throughput. Processor designs can apply the same idea. In episode 7, our example processor performed the fetch-decode-execute cycle sequentially and in a continuous loop: Fetch-decode-execute, fetch-decode-execute, fetch-decode-execute, and so on. All of these separate processes can overlap so that all parts of the CPU are active at any given time. In this pipelined design, an instruction is executed every single clock cycle which triples the throughput.",
+      "why_included": "Introduces pipelining with laundry analogy and explains how it triples throughput.",
+      "bridge_before": null,
+      "bridge_after": "但流水线会遇到数据依赖和跳转指令带来的问题。",
+      "expected_viewer_understanding": "Pipelining overlaps fetch-decode-execute stages to execute one instruction per cycle."
+    },
+    {
+      "segment_id": "segment_009",
+      "role": "explanation",
+      "source_block_ids": [
+        "block_0039",
+        "block_0040",
+        "block_0041"
+      ],
+      "source_start": 428.46,
+      "source_end": 469.3,
+      "duration": 40.84,
+      "transcript": "But just like with caching this can lead to some tricky problems. A big hazard is a dependency in the instructions. For example, you might fetch something that the currently executing instruction is just about to modify, which means you’ll end up with the old value in the pipeline. To compensate for this, pipelined processors have to look ahead for data dependencies, and if necessary, stall their pipelines to avoid problems. High end processors, like those found in laptops and smartphones, go one step further and can dynamically reorder instructions with dependencies in order to minimize stalls and keep the pipeline moving, which is called out-of-order execution. As you might imagine, the circuits that figure this all out are incredibly complicated. Nonetheless, pipelining is tremendously effective and almost all processors implement it today.",
+      "why_included": "Covers pipeline hazards, data dependencies, stalling, and out-of-order execution.",
+      "bridge_before": null,
+      "bridge_after": "跳转指令是另一个大问题，需要分支预测来解决。",
+      "expected_viewer_understanding": "Dependencies can stall pipelines; advanced CPUs reorder instructions to minimize delays."
+    },
+    {
+      "segment_id": "segment_010",
+      "role": "core_concept",
+      "source_block_ids": [
+        "block_0042",
+        "block_0043",
+        "block_0044",
+        "block_0045",
+        "block_0047"
+      ],
+      "source_start": 469.3,
+      "source_end": 539.42,
+      "duration": 70.12,
+      "transcript": "Another big hazard are conditional jump instructions -- we talked about one example, a JUMP NEGATIVE, last episode. These instructions can change the execution flow of a program depending on a value. A simple pipelined processor will perform a long stall when it sees a jump instruction, waiting for the value to be finalized. Only once the jump outcome is known, does the processor start refilling its pipeline. But, this can produce long delays, so high-end processors have some tricks to deal with this problem too. Imagine an upcoming jump instruction as a fork in a road - a branch. Advanced CPUs guess which way they are going to go, and start filling their pipeline with instructions based off that guess – a technique called speculative execution. To minimize the effects of these flushes, CPU manufacturers have developed sophisticated ways to guess which way branches will go, called branch prediction. Instead of being a 50/50 guess, today’s processors can often guess with over 90% accuracy!",
+      "why_included": "Explains branch prediction and speculative execution, key techniques to handle jumps.",
+      "bridge_before": null,
+      "bridge_after": "流水线每个周期执行一条指令，但超标量处理器能执行多条。",
+      "expected_viewer_understanding": "Branch prediction guesses jump outcomes to keep pipeline full, achieving >90% accuracy."
+    },
+    {
+      "segment_id": "segment_011",
+      "role": "core_concept",
+      "source_block_ids": [
+        "block_0049",
+        "block_0050",
+        "block_0051",
+        "block_0052"
+      ],
+      "source_start": 549.08,
+      "source_end": 611.89,
+      "duration": 62.81,
+      "transcript": "During the execute phase even in a pipelined design, whole areas of the processor might be totally idle. For example, while executing an instruction that fetches a value from memory, the ALU is just going to be sitting there, not doing a thing. So why not fetch-and-decode several instructions at once, and whenever possible, execute instructions that require different parts of the CPU all at the same time!? But we can take this one step further and add duplicate circuitry for popular instructions. For example, many processors will have four, eight or more identical ALUs, so they can execute many mathematical instructions all in parallel! Ok, the techniques we’ve discussed so far primarily optimize the execution throughput of a single stream of instructions, but another way to increase performance is to run several streams of instructions at once with multi-core processors. You might have heard of dual core or quad core processors. This means there are multiple independent processing units inside of a single CPU chip. In many ways, this is very much like having multiple separate CPUs, but because they’re tightly integrated, they can share some resources, like cache, allowing the cores to work together on shared computations.",
+      "why_included": "Introduces superscalar and multi-core processors, explaining parallel execution and shared resources.",
+      "bridge_before": null,
+      "bridge_after": "如果需要更多计算能力，可以构建多CPU系统甚至超级计算机。",
+      "expected_viewer_understanding": "Superscalar CPUs execute multiple instructions per cycle; multi-core integrates multiple processing units."
+    },
+    {
+      "segment_id": "segment_012",
+      "role": "summary",
+      "source_block_ids": [
+        "block_0054",
+        "block_0056",
+        "block_0057",
+        "block_0058",
+        "block_0059"
+      ],
+      "source_start": 626.42,
+      "source_end": 696.46,
+      "duration": 70.04,
+      "transcript": "Two- and four-processor configuration are the most common right now, but every now and again even that much processing power isn’t enough. So we humans get extra ambitious and build ourselves a supercomputer! You’re going to need a lot of processors. No.. no... even more than that. A lot more! When this video was made, the world’s fastest computer was located in The National Supercomputing Center in Wuxi, China. The Sunway TaihuLight contains a brain-melting 40,960 CPUs, each with 256 cores! Thats over ten million cores in total... and each one of those cores runs at 1.45 gigahertz. In total, this machine can process 93 Quadrillion -- that’s 93 million-billions -- floating point math operations per second, knows as FLOPS. And trust me, that’s a lot of FLOPS!! No word on whether it can run Crysis at max settings, but I suspect it might. So long story short, not only have computer processors gotten a lot faster over the years, but also a lot more sophisticated, employing all sorts of clever tricks to squeeze out more and more computation per clock cycle.",
+      "why_included": "Shows extreme scaling with supercomputers and summarizes the evolution of CPU performance techniques.",
+      "bridge_before": null,
+      "bridge_after": null,
+      "expected_viewer_understanding": "From caches to multi-core to supercomputers, CPUs use many tricks to maximize computation per cycle."
+    }
+  ],
+  "editing_strategy": {
+    "mode": "single_topic",
+    "reason": "All selected blocks form a coherent narrative on CPU performance techniques, from basic speed improvements to advanced parallelism.",
+    "quality_over_count": true,
+    "allow_variable_segment_duration": true
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "judge_score": 0.65,
+  "gap_count": 3,
+  "gaps": [
+    {
+      "between": [
+        "segment_002"
+      ],
+      "problem": "Segment_002 starts with '那么高中物理学好的观念。信在什么地方？' which is a direct continuation of a previous thought not present in the transcript, leaving the viewer confused.",
+      "missing_topic_or_context": "missing_context",
+      "excluded_candidates_near_gap": [
+        {
+          "block_id": "block_0003",
+          "editing_unit_id": null,
+          "start": 38.0,
+          "end": 56.0,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 1.0,
+          "narrative_importance": 0.5,
+          "bridge_importance": 0.44,
+          "required_for_coherence": true,
+          "unresolved_sentence_ids": [
+            "sentence_0009"
+          ],
+          "summary": "第三个问题也是最重要的问题，就是要给大家提及一下。你们数量之后，大家都是信奥义的。对不对？不管大家去了海淀两个学校。当然我希望大家都在两个学校。那么我们如何去把"
+        },
+        {
+          "block_id": "block_0011",
+          "editing_unit_id": null,
+          "start": 207.62,
+          "end": 225.62,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0055",
+            "sentence_0059"
+          ],
+          "summary": "說說說要不是說我一个人來沾菜你们啊什么叫牙腸对不对我们張老師肯定用沾菜你们对不对那不可能用別的東西沾你们为什么呀沾著菜你这个对不对学了牙腸包含什么牙腸包含什么牙"
+        },
+        {
+          "block_id": "block_0012",
+          "editing_unit_id": null,
+          "start": 225.62,
+          "end": 249.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.58,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0076",
+            "sentence_0077"
+          ],
+          "summary": "七点对不对那牙腸如果我们不喜歡初中物理我覺得應該是最難的就是什么牙腸福利不是福利对不对來我问问大家你们誰能知道我们浮力的四种解决方法。"
+        },
+        {
+          "block_id": "block_0013",
+          "editing_unit_id": null,
+          "start": 249.74,
+          "end": 268.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.9,
+          "narrative_importance": 0.58,
+          "bridge_importance": 0.2,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0085"
+          ],
+          "summary": "只要你不知道浮力问题，你肯定从这四种方法中完全能够把它解决的。对，第一个就是浮力的基本公式，对不对？浮力基本公式，那不知道浮力，从先考的基本公式，那浮力的基本公"
+        },
+        {
+          "block_id": "block_0015",
+          "editing_unit_id": null,
+          "start": 286.74,
+          "end": 304.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.32,
+          "required_for_coherence": true,
+          "unresolved_sentence_ids": [
+            "sentence_0105",
+            "sentence_0106"
+          ],
+          "summary": "对然后第二个我们对中網的其實就是什么呀就是通過物体的處理什么狀態福產條件对的福產條件就是漂活血活好什么樣和產点其實这个福產條件其實就是設計到什么受理分析对福利分"
+        },
+        {
+          "block_id": "block_0016",
+          "editing_unit_id": null,
+          "start": 304.74,
+          "end": 322.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.5,
+          "bridge_importance": 0.44,
+          "required_for_coherence": true,
+          "unresolved_sentence_ids": [
+            "sentence_0107",
+            "sentence_0114"
+          ],
+          "summary": "福利分析是實力的是不是第二个方法就是受理分析也就是根據福產條件福利分析第三个方法呢对呀就是兩次測量之差这个一般時候"
+        },
+        {
+          "block_id": "block_0018",
+          "editing_unit_id": null,
+          "start": 346.74,
+          "end": 368.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 1.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0127"
+          ],
+          "summary": "我已经不见带了百万学校，好几件几百个学生送到高考。我告诉你，有几千个北京学生都在这里听我的课，我帮助他们上课。其实好看的，不骗你们，你们都可以关注我，关注我，我"
+        }
+      ],
+      "safe_alternative_candidates": [
+        {
+          "block_id": "block_0001",
+          "editing_unit_id": null,
+          "start": 0.0,
+          "end": 18.0,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.38,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "今天呢，我不为了要讲任何的物理知识，讲这些没有意义。因为我一节课也不可能把高中物理给你们讲完，讲一点点知识给你们来讲也没有什么用。那么今天呢，我想给大家讲三个问"
+        },
+        {
+          "block_id": "block_0014",
+          "editing_unit_id": null,
+          "start": 268.74,
+          "end": 286.74,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.5,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "把它解决掉，行不行？如果不喜欢的话，我们常常考虑什么方法？阿基米，阿基米，来我问大家，你还不就是阿基米的原因？对，阿基米，对。上下表面，上下表面压力差，它是考得"
+        },
+        {
+          "block_id": "block_0017",
+          "editing_unit_id": null,
+          "start": 322.74,
+          "end": 346.74,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "在實驗中經常考慮我告訴你你们回头关注我一下，我在图球上有11万粉丝。我已经这几年，我告诉你们，我这几年从先高考改革以后，我基本上就一直教高考。"
+        },
+        {
+          "block_id": "block_0019",
+          "editing_unit_id": null,
+          "start": 373.74,
+          "end": 396.05,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "快加了，总之要爱上他们。还没过年，快加好了。头条，头条我有。今天11万粉丝。B站，B站一般是你们学生。你看B站，你看看我的视频。很多人都在看。B站，董英。"
+        },
+        {
+          "block_id": "block_0021",
+          "editing_unit_id": null,
+          "start": 414.05,
+          "end": 435.05,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.3,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "对不对？那个是浮力产生的一个原因对不对？但是那个设计的应该非常少，非常少。其实你们在做题跟我中考的可能性积极积这是浮力。那么浮力完之后，我们又学了什么呢？又学了"
+        },
+        {
+          "block_id": "block_0022",
+          "editing_unit_id": null,
+          "start": 435.05,
+          "end": 453.42,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "就是包括我们的杠杆、定滑轮、动滑轮，是吧？对滑轮和滑轮组。杠杆之后我们说到涉及到了什么？涉及到了做功、功率以及机械效率。"
+        }
+      ],
+      "recommended_action": "safe_replacement"
+    },
+    {
+      "between": [
+        "segment_002",
+        "segment_003"
+      ],
+      "problem": "There is a large time gap (842.78s - 198.9s = 643.88s) between segment_002 and segment_003, indicating missing content that bridges the discussion from '初中物理内容' to '高中物理学习顺序'. The bridge '那么高中物理具体学什么呢？' is present but insufficient to cover the missing material.",
+      "missing_topic_or_context": "There is a large time gap (842.78s - 198.9s = 643.88s) between segment_002 and segment_003, indicating missing content that bridges the discussion from '初中物理内容' to '高中物理学习顺序'. The bridge '那么高中物理具体学什么呢",
+      "excluded_candidates_near_gap": [
+        {
+          "block_id": "block_0003",
+          "editing_unit_id": null,
+          "start": 38.0,
+          "end": 56.0,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 1.0,
+          "narrative_importance": 0.5,
+          "bridge_importance": 0.44,
+          "required_for_coherence": true,
+          "unresolved_sentence_ids": [
+            "sentence_0009"
+          ],
+          "summary": "第三个问题也是最重要的问题，就是要给大家提及一下。你们数量之后，大家都是信奥义的。对不对？不管大家去了海淀两个学校。当然我希望大家都在两个学校。那么我们如何去把"
+        },
+        {
+          "block_id": "block_0011",
+          "editing_unit_id": null,
+          "start": 207.62,
+          "end": 225.62,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0055",
+            "sentence_0059"
+          ],
+          "summary": "說說說要不是說我一个人來沾菜你们啊什么叫牙腸对不对我们張老師肯定用沾菜你们对不对那不可能用別的東西沾你们为什么呀沾著菜你这个对不对学了牙腸包含什么牙腸包含什么牙"
+        },
+        {
+          "block_id": "block_0012",
+          "editing_unit_id": null,
+          "start": 225.62,
+          "end": 249.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.58,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0076",
+            "sentence_0077"
+          ],
+          "summary": "七点对不对那牙腸如果我们不喜歡初中物理我覺得應該是最難的就是什么牙腸福利不是福利对不对來我问问大家你们誰能知道我们浮力的四种解决方法。"
+        },
+        {
+          "block_id": "block_0013",
+          "editing_unit_id": null,
+          "start": 249.74,
+          "end": 268.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.9,
+          "narrative_importance": 0.58,
+          "bridge_importance": 0.2,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0085"
+          ],
+          "summary": "只要你不知道浮力问题，你肯定从这四种方法中完全能够把它解决的。对，第一个就是浮力的基本公式，对不对？浮力基本公式，那不知道浮力，从先考的基本公式，那浮力的基本公"
+        },
+        {
+          "block_id": "block_0015",
+          "editing_unit_id": null,
+          "start": 286.74,
+          "end": 304.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.32,
+          "required_for_coherence": true,
+          "unresolved_sentence_ids": [
+            "sentence_0105",
+            "sentence_0106"
+          ],
+          "summary": "对然后第二个我们对中網的其實就是什么呀就是通過物体的處理什么狀態福產條件对的福產條件就是漂活血活好什么樣和產点其實这个福產條件其實就是設計到什么受理分析对福利分"
+        },
+        {
+          "block_id": "block_0016",
+          "editing_unit_id": null,
+          "start": 304.74,
+          "end": 322.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.5,
+          "bridge_importance": 0.44,
+          "required_for_coherence": true,
+          "unresolved_sentence_ids": [
+            "sentence_0107",
+            "sentence_0114"
+          ],
+          "summary": "福利分析是實力的是不是第二个方法就是受理分析也就是根據福產條件福利分析第三个方法呢对呀就是兩次測量之差这个一般時候"
+        },
+        {
+          "block_id": "block_0018",
+          "editing_unit_id": null,
+          "start": 346.74,
+          "end": 368.74,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 1.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0127"
+          ],
+          "summary": "我已经不见带了百万学校，好几件几百个学生送到高考。我告诉你，有几千个北京学生都在这里听我的课，我帮助他们上课。其实好看的，不骗你们，你们都可以关注我，关注我，我"
+        },
+        {
+          "block_id": "block_0020",
+          "editing_unit_id": null,
+          "start": 396.05,
+          "end": 414.05,
+          "risk_level": "high_risk",
+          "lexical_risk_score": 0.85,
+          "narrative_importance": 0.5,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [
+            "sentence_0139"
+          ],
+          "summary": "小红书，视频。你都我学的，都可以收到。好吧。福利，那么福利。B站的方法是不是必要？次次量度打法。第四种。就是刚才那位同学说的上下有面的压力调整"
+        }
+      ],
+      "safe_alternative_candidates": [
+        {
+          "block_id": "block_0105",
+          "editing_unit_id": null,
+          "start": 2353.47,
+          "end": 2375.11,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.58,
+          "bridge_importance": 0.24,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "特别典型的曲线运动。然后接下来与初中物理有一点点联系的就是说着功、功率，学的当然是力学的啊。功、功率、能就极限的以及著名的功能关系。"
+        },
+        {
+          "block_id": "block_0106",
+          "editing_unit_id": null,
+          "start": 2375.11,
+          "end": 2394.97,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.46,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "好，我告诉大家，这一招是整个高中物理的核心。就是你基本上我们高中物理的题型，绝大部分都是通过这个功能关系去把这个题型得出来。"
+        },
+        {
+          "block_id": "block_0107",
+          "editing_unit_id": null,
+          "start": 2394.97,
+          "end": 2418.81,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.3,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "就是你学的不是解决题的基本就在这儿学的。这是我们的大招。我不知道大家有没有玩过游戏，传统的那种？对，玩游戏的话，游戏的英雄手里有几个大招，这就是他们的大招。能够"
+        },
+        {
+          "block_id": "block_0001",
+          "editing_unit_id": null,
+          "start": 0.0,
+          "end": 18.0,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.38,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "今天呢，我不为了要讲任何的物理知识，讲这些没有意义。因为我一节课也不可能把高中物理给你们讲完，讲一点点知识给你们来讲也没有什么用。那么今天呢，我想给大家讲三个问"
+        },
+        {
+          "block_id": "block_0102",
+          "editing_unit_id": null,
+          "start": 2294.64,
+          "end": 2313.83,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "牛段好必修硬高音上学期主要学期的主要就是我们高音下学期学习什么呢？"
+        },
+        {
+          "block_id": "block_0108",
+          "editing_unit_id": null,
+          "start": 2421.29,
+          "end": 2441.95,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "功能关系。好，这就是我们高一要学的，这就是高一要学的。那么高二我们学什么？高二我们学电子学。电子学的话，我今天因为时间关系。"
+        },
+        {
+          "block_id": "block_0101",
+          "editing_unit_id": null,
+          "start": 2275.1,
+          "end": 2294.16,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.44,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "我们知道物体之间第一个位置是什么的。这是一种什么呢？大小、方向。动物对同一条动物在极高度上把这个就当第三点。那么我们主要研究什么？我们主要研究"
+        },
+        {
+          "block_id": "block_0109",
+          "editing_unit_id": null,
+          "start": 2444.99,
+          "end": 2465.92,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.5,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "学完电学再学热学、光学，还有原子物理。那么这就是构成了我们高中物理的。可见我为什么对大家讲得详细一些？因为你们今天来就要去学这些东西。"
+        }
+      ],
+      "recommended_action": "safe_replacement"
+    },
+    {
+      "between": [
+        "segment_004"
+      ],
+      "problem": "Segment_004 contains garbled and repetitive text (e.g., '是矢量吗？不是。是速度变化量吗？不是。是速度变化快慢。' followed by incoherent sentences like '你对于物理方面，你一定要注重物理，因为你的理解，你自己能被决定，是团队打了你的'), which severely impairs clarity and coherence.",
+      "missing_topic_or_context": "incoherent_order",
+      "excluded_candidates_near_gap": [],
+      "safe_alternative_candidates": [
+        {
+          "block_id": "block_0064",
+          "editing_unit_id": null,
+          "start": 1365.34,
+          "end": 1385.34,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.58,
+          "bridge_importance": 0.24,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "高通物理，你就尽管帮助。那理解起来以后，就已经分算了。能明白什么是加速度了吗？来，那么所以说，我看咱们同学的这个能力，你们觉得加速度，如果说我们给它一个公式的话"
+        },
+        {
+          "block_id": "block_0065",
+          "editing_unit_id": null,
+          "start": 1387.34,
+          "end": 1402.34,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.58,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "加速度，它的速度变化量，所以它能用到什么？时间。OK，有了公式，谁能给我说说加速度的单位应该是什么？微视。迷迷，它的单位呢"
+        },
+        {
+          "block_id": "block_0066",
+          "editing_unit_id": null,
+          "start": 1402.34,
+          "end": 1435.34,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷迷"
+        },
+        {
+          "block_id": "block_0047",
+          "editing_unit_id": null,
+          "start": 981.7,
+          "end": 999.7,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "我们的汽车，大家知道，我们汽车买汽车的时候，有一个功能，有一个性能，是大家买汽车的时候一定要去考虑的。就是它的動力对不对動力那么它動力就会產生什么樣"
+        },
+        {
+          "block_id": "block_0048",
+          "editing_unit_id": null,
+          "start": 999.7,
+          "end": 1017.7,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "你们還覺得買動力大的還動力什么動力大的動力大它会幹嘛你知道嗎它会讓你的汽車能夠非常快的幹嘛呀提速大家知道这个很重要的提速就是加速我们有時候你是買汽車"
+        },
+        {
+          "block_id": "block_0040",
+          "editing_unit_id": null,
+          "start": 818.51,
+          "end": 842.78,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.12,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "那么热，咱们学不学？咱们热也有一个专辑，关于热的专辑。那么咱们还有一个专辑是，好。那我们来看一下高中学的是什么。"
+        },
+        {
+          "block_id": "block_0049",
+          "editing_unit_id": null,
+          "start": 1017.7,
+          "end": 1035.7,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "它会告訴你我们这个車叫什么零百加速零百加速什么意思零千元零千元零千元零千元零千元零千元零千元零千元零千元零千元零千元零千元"
+        },
+        {
+          "block_id": "block_0069",
+          "editing_unit_id": null,
+          "start": 1476.88,
+          "end": 1496.96,
+          "risk_level": "low_risk",
+          "lexical_risk_score": 0.0,
+          "narrative_importance": 0.42,
+          "bridge_importance": 0.0,
+          "required_for_coherence": false,
+          "unresolved_sentence_ids": [],
+          "summary": "力学刚开始和初中挺像的。我们也要重新去学习。而且要加深对于力的研究。学习像以前一样。但是同学们，"
+        }
+      ],
+      "recommended_action": "safe_replacement"
+    }
+  ],
+  "manual_review_can_recover_coherence": true,
+  "required_manual_review_sentence_ids": [
+    "sentence_0009",
+    "sentence_0105",
+    "sentence_0106",
+    "sentence_0107",
+    "sentence_0114"
+  ],
+  "coherence_status": "failed_due_to_exclusions"
+}

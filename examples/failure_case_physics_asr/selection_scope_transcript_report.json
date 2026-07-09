@@ -1,0 +1,41 @@
+{
+  "selected_scope_lexical_valid": true,
+  "selected_scope_unresolved_count": 0,
+  "selected_scope_unresolved_sentence_ids": [],
+  "editing_allowed": true,
+  "status": "auto_pass_with_exclusions",
+  "blocked_reason": null,
+  "global_unresolved_count": 17,
+  "excluded_global_unresolved_sentence_ids": [
+    "sentence_0009",
+    "sentence_0055",
+    "sentence_0059",
+    "sentence_0076",
+    "sentence_0077",
+    "sentence_0085",
+    "sentence_0105",
+    "sentence_0106",
+    "sentence_0107",
+    "sentence_0114",
+    "sentence_0127",
+    "sentence_0139",
+    "sentence_0162",
+    "sentence_0164",
+    "sentence_0167",
+    "sentence_0173",
+    "sentence_0174"
+  ],
+  "risky_selected_block_ids": [],
+  "safe_alternative_block_ids": [
+    "block_0006",
+    "block_0007",
+    "block_0010",
+    "block_0014",
+    "block_0017",
+    "block_0019",
+    "block_0021",
+    "block_0022",
+    "block_0025",
+    "block_0027"
+  ]
+}

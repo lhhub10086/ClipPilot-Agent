@@ -1,0 +1,59 @@
+course_review_summary:
+  min_segments: 1
+  max_segments: 5
+  target_segments:
+  min_segment_seconds: 30
+  max_segment_seconds: 60
+  max_final_duration_seconds: 180
+  min_cut_quality_score: 0.6
+  allow_less_than_target: true
+
+highlight_reel:
+  min_segments: 8
+  max_segments: 20
+  target_segments: 12
+  min_segment_seconds: 6
+  max_segment_seconds: 18
+  target_segment_seconds: 10
+  max_final_duration_seconds: 240
+  min_cut_quality_score: 0.55
+  allow_less_than_target: true
+  prefer_dense_highlights: true
+  transition: short_fade
+
+short_video_cut:
+  min_segments: 4
+  max_segments: 12
+  target_segments: 8
+  min_segment_seconds: 8
+  max_segment_seconds: 25
+  max_final_duration_seconds: 180
+  min_cut_quality_score: 0.58
+  allow_less_than_target: true
+
+interview_highlight:
+  min_segments: 2
+  max_segments: 6
+  min_segment_seconds: 20
+  max_segment_seconds: 60
+  max_final_duration_seconds: 240
+  min_cut_quality_score: 0.55
+  allow_less_than_target: true
+
+tutorial_summary:
+  min_segments: 1
+  max_segments: 4
+  min_segment_seconds: 20
+  max_segment_seconds: 75
+  max_final_duration_seconds: 180
+  min_cut_quality_score: 0.6
+  allow_less_than_target: true
+
+course_review:
+  min_segments: 1
+  max_segments: 5
+  min_segment_seconds: 30
+  max_segment_seconds: 60
+  max_final_duration_seconds: 180
+  min_cut_quality_score: 0.6
+  allow_less_than_target: true

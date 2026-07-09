@@ -1,0 +1,298 @@
+{
+  "risk_sentence_count": 17,
+  "threshold": 0.55,
+  "risks": [
+    {
+      "sentence_id": "sentence_0009",
+      "start": 42.0,
+      "end": 46.0,
+      "text": "你们数量之后，大家都是信奥义的。",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 1.0,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0015"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0127",
+      "start": 358.74,
+      "end": 368.74,
+      "text": "其实好看的，不骗你们，你们都可以关注我，关注我，我的个人平台要刑法的护理教师。",
+      "risk_types": [
+        "context_inconsistency",
+        "low_domain_relevance",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 1.0,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0211",
+        "cue_0212",
+        "cue_0213",
+        "cue_0214",
+        "cue_0215",
+        "cue_0216"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0085",
+      "start": 264.74,
+      "end": 268.74,
+      "text": "来，我问大家，肉叶金鱼盘？对。",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.9,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0136",
+        "cue_0137",
+        "cue_0138"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0055",
+      "start": 209.62,
+      "end": 210.62,
+      "text": "來沾菜你们啊",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0096"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0059",
+      "start": 214.62,
+      "end": 215.62,
+      "text": "沾菜你们对不对",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0100"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0076",
+      "start": 233.62,
+      "end": 236.74,
+      "text": "福利",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0117"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0077",
+      "start": 236.74,
+      "end": 237.74,
+      "text": "不是福利对不对",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0118"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0105",
+      "start": 302.74,
+      "end": 303.74,
+      "text": "福利分析",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0171"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0106",
+      "start": 303.74,
+      "end": 304.74,
+      "text": "福利分析",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0172"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0107",
+      "start": 304.74,
+      "end": 305.74,
+      "text": "福利分析",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0173"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0114",
+      "start": 311.74,
+      "end": 313.74,
+      "text": "福利分析",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0180"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0139",
+      "start": 403.05,
+      "end": 406.05,
+      "text": "福利，那么福利。",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0236",
+        "cue_0237"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0162",
+      "start": 468.42,
+      "end": 474.42,
+      "text": "壓上福利，機械滑輪圖不學。",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0283",
+        "cue_0284",
+        "cue_0285"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0164",
+      "start": 476.42,
+      "end": 481.42,
+      "text": "因為一盒福利可以上不去啊。",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0287",
+        "cue_0288"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0167",
+      "start": 488.42,
+      "end": 491.42,
+      "text": "這福利對科技的進步、國家衛星衛星發生，",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0293",
+        "cue_0294"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0173",
+      "start": 519.42,
+      "end": 522.42,
+      "text": "你福利干嘛？你有没有什么用啊，是吧？",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0311",
+        "cue_0312",
+        "cue_0313"
+      ]
+    },
+    {
+      "sentence_id": "sentence_0174",
+      "start": 522.42,
+      "end": 528.42,
+      "text": "你掉了，你掉了。所以说，我会福利，那就是修改了。",
+      "risk_types": [
+        "context_inconsistency",
+        "semantic_anomaly",
+        "suspected_homophone"
+      ],
+      "risk_score": 0.85,
+      "requires_re_asr": true,
+      "source_cue_ids": [
+        "cue_0314",
+        "cue_0315",
+        "cue_0316",
+        "cue_0317",
+        "cue_0318"
+      ]
+    }
+  ],
+  "semantic_block_count": 125
+}

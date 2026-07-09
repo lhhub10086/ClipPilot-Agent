@@ -1,0 +1,145 @@
+{
+  "selected_topics": [
+    {
+      "topic_id": "topic_001",
+      "topic_title": "CPU Performance Techniques",
+      "importance_reason": "Core topic: advanced CPU design for speed",
+      "candidate_block_ids": [
+        "block_0002",
+        "block_0003",
+        "block_0004",
+        "block_0005",
+        "block_0006",
+        "block_0007",
+        "block_0008",
+        "block_0009",
+        "block_0010",
+        "block_0011",
+        "block_0012"
+      ],
+      "priority": 1
+    },
+    {
+      "topic_id": "topic_002",
+      "topic_title": "Cache and Memory Bottleneck",
+      "importance_reason": "Key solution to RAM speed gap",
+      "candidate_block_ids": [
+        "block_0013",
+        "block_0014",
+        "block_0015",
+        "block_0016",
+        "block_0017",
+        "block_0018",
+        "block_0019",
+        "block_0020",
+        "block_0021",
+        "block_0022",
+        "block_0023",
+        "block_0024",
+        "block_0025",
+        "block_0026",
+        "block_0027",
+        "block_0028",
+        "block_0029"
+      ],
+      "priority": 2
+    },
+    {
+      "topic_id": "topic_003",
+      "topic_title": "Instruction Pipelining",
+      "importance_reason": "Parallel execution for throughput",
+      "candidate_block_ids": [
+        "block_0030",
+        "block_0031",
+        "block_0032",
+        "block_0033",
+        "block_0034",
+        "block_0035",
+        "block_0036",
+        "block_0037",
+        "block_0038",
+        "block_0039",
+        "block_0040",
+        "block_0041"
+      ],
+      "priority": 3
+    },
+    {
+      "topic_id": "topic_004",
+      "topic_title": "Branch Prediction and Speculative Execution",
+      "importance_reason": "Handles pipeline hazards",
+      "candidate_block_ids": [
+        "block_0042",
+        "block_0043",
+        "block_0044",
+        "block_0045",
+        "block_0046",
+        "block_0047"
+      ],
+      "priority": 4
+    },
+    {
+      "topic_id": "topic_005",
+      "topic_title": "Superscalar and Multi-core Processors",
+      "importance_reason": "Advanced parallelism techniques",
+      "candidate_block_ids": [
+        "block_0048",
+        "block_0049",
+        "block_0050",
+        "block_0051",
+        "block_0052",
+        "block_0053",
+        "block_0054",
+        "block_0055",
+        "block_0056",
+        "block_0057",
+        "block_0058",
+        "block_0059",
+        "block_0060"
+      ],
+      "priority": 5
+    }
+  ],
+  "discarded_blocks": [
+    {
+      "block_id": "block_0001",
+      "reason": "filler"
+    },
+    {
+      "block_id": "block_0005",
+      "reason": "transition"
+    },
+    {
+      "block_id": "block_0021",
+      "reason": "transition"
+    },
+    {
+      "block_id": "block_0022",
+      "reason": "transition"
+    },
+    {
+      "block_id": "block_0031",
+      "reason": "transition"
+    },
+    {
+      "block_id": "block_0034",
+      "reason": "transition"
+    },
+    {
+      "block_id": "block_0037",
+      "reason": "transition"
+    },
+    {
+      "block_id": "block_0046",
+      "reason": "transition"
+    },
+    {
+      "block_id": "block_0048",
+      "reason": "transition"
+    },
+    {
+      "block_id": "block_0060",
+      "reason": "transition"
+    }
+  ]
+}

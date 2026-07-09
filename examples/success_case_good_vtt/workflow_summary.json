@@ -1,0 +1,94 @@
+{
+  "run_id": "workflow_run",
+  "success": true,
+  "export_video": true,
+  "multi_agent_loop": true,
+  "transcript_source": "provided_vtt",
+  "transcript_quality_score": 1.0,
+  "transcript_valid": true,
+  "asr_backend": "",
+  "asr_fallback_used": false,
+  "selector_model": "deepseek-chat",
+  "editor_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "judge_initial_score": 0.92,
+  "judge_final_score": 0.95,
+  "repair_loop_triggered": true,
+  "repair_rounds": 1,
+  "repair_success": true,
+  "policy_valid": true,
+  "policy_violations": [],
+  "max_final_duration_seconds": 240.0,
+  "actual_final_duration_seconds": 57.52,
+  "policy_repair_triggered": true,
+  "video_export_allowed": true,
+  "export_blocked_reason": null,
+  "primary_outputs": [
+    "final_review.mp4",
+    "timeline.json",
+    "edit_plan.json",
+    "human_review_sheet.csv"
+  ],
+  "supporting_outputs": [
+    "trace.json",
+    "validation_report.json",
+    "workflow_summary.json"
+  ],
+  "intermediate_assets": [
+    "assets/selected_segments/",
+    "assets/title_cards/",
+    "assets/temp_chunks/"
+  ],
+  "selected_segment_count": 6,
+  "semantic_timeline_valid": true,
+  "final_video_backend": "ffmpeg_concat",
+  "final_review_visual_valid": true,
+  "final_review_black_frame_ratio": 0.0167,
+  "policy": {
+    "task_type": "highlight_reel",
+    "audience": "students needing quick review",
+    "output_goal": "first_cut_review_video",
+    "segment_count_policy": {
+      "mode": "adaptive",
+      "min_segments": 8,
+      "max_segments": 20,
+      "target_segments": 12,
+      "allow_less_than_target": true
+    },
+    "duration_policy": {
+      "min_segment_seconds": 6.0,
+      "max_segment_seconds": 18.0,
+      "target_segment_seconds": 10.0,
+      "target_final_duration_seconds": null,
+      "max_final_duration_seconds": 240.0,
+      "allow_shorter_if_quality_low": true
+    },
+    "selection_policy": {
+      "quality_first": true,
+      "avoid_overlap": true,
+      "avoid_repetition": true,
+      "prefer_semantic_boundary": true,
+      "min_cut_quality_score": 0.55,
+      "prefer_dense_highlights": true
+    },
+    "output_policy": {
+      "generate_final_review": true,
+      "generate_timeline": true,
+      "generate_subtitle": true,
+      "generate_review_sheet": true,
+      "title_card": "optional",
+      "transition": "short_fade"
+    },
+    "reasoning_summary": "User wants a coherent rough cut for quick review, not a fragmented highlight reel. Task type set to course_review_summary. Segment count adaptive with target 12, each 6-18 seconds, max final duration 240s. Selection prefers semantic boundaries and avoids repetition to ensure logical flow. Output includes timeline, subtitles, and review sheet.",
+    "planner_backend": "llm_api",
+    "planner_model": "deepseek-chat",
+    "planner_token_proxy": 1041,
+    "user_requested_segment_count": null,
+    "forced_segment_count": false,
+    "planner_fallback_used": false,
+    "planner_fallback_reason": null,
+    "planner_prompt_hash": "40fc579b6a603bdb",
+    "planner_raw_response_path": "outputs\\workflow_run_good_vtt_export\\planner_raw_response.json",
+    "task_plan_path": "outputs\\workflow_run_good_vtt_export\\task_plan.json"
+  }
+}

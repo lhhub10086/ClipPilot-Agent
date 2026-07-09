@@ -1,0 +1,19 @@
+# Demo configuration for videos with a provided high-quality VTT/SRT subtitle.
+mock_mode: false
+llm:
+  required: true
+  provider: openai_compatible
+  model: deepseek-chat
+  api_key_env: LLM_API_KEY
+  base_url_env: LLM_BASE_URL
+  timeout_sec: 30
+  temperature: 0.3
+  max_tokens: 1200
+asr:
+  enabled: false
+  backend: external_subtitle
+workflow:
+  default_policy_path: configs/workflow_policy.yaml
+  export_video_by_default: false
+  judge_threshold: 0.75
+  max_repair_rounds: 3

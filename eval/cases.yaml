@@ -1,0 +1,49 @@
+cases:
+  - case_id: good_vtt_course_01
+    category: good_vtt
+    video_path: ${CLIPPILOT_DATA_ROOT}/course_01.mp4
+    subtitle_path: ${CLIPPILOT_DATA_ROOT}/course_01.vtt
+    language: en
+    intent: >
+      Generate a concise first-cut review video that preserves the core
+      concepts and maintains coherent context.
+    expected_behavior: export_or_valid_block
+    notes: High-quality subtitle case for workflow sanity checking.
+  - case_id: bad_asr_physics_zh_01
+    category: bad_asr
+    video_path: ${CLIPPILOT_DATA_ROOT}/physics_zh_01.mp4
+    subtitle_path:
+    language: zh
+    intent: >
+      Generate a coherent review rough cut for a junior-to-senior physics
+      transition lesson.
+    expected_behavior: block_or_manual_review
+    notes: Chinese ASR risk case; should not be presented as product success.
+  - case_id: degenerate_single_segment_01
+    category: degenerate
+    video_path: ${CLIPPILOT_DATA_ROOT}/course_degenerate.mp4
+    subtitle_path: ${CLIPPILOT_DATA_ROOT}/course_degenerate.vtt
+    language: zh
+    intent: >
+      Generate a fast review rough cut covering the lesson goals without
+      collapsing into one isolated segment.
+    expected_behavior: coverage_gate_block
+    notes: Synthetic gate behavior case.
+  - case_id: policy_overflow_01
+    category: policy_overflow
+    video_path: ${CLIPPILOT_DATA_ROOT}/course_long.mp4
+    subtitle_path: ${CLIPPILOT_DATA_ROOT}/course_long.vtt
+    language: en
+    intent: >
+      Generate a quick review rough cut under the configured duration policy.
+    expected_behavior: policy_repair_or_block
+    notes: Ensures overlong timelines are not exported blindly.
+  - case_id: black_video_01
+    category: black_video
+    video_path: ${CLIPPILOT_DATA_ROOT}/black_video.mp4
+    subtitle_path: ${CLIPPILOT_DATA_ROOT}/black_video.vtt
+    language: en
+    intent: >
+      Generate a rough cut only if the exported media is visually valid.
+    expected_behavior: media_gate_block
+    notes: Media validation behavior case.

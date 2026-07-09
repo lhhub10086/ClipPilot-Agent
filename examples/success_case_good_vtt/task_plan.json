@@ -1,0 +1,47 @@
+{
+  "task_type": "highlight_reel",
+  "audience": "students needing quick review",
+  "output_goal": "first_cut_review_video",
+  "segment_count_policy": {
+    "mode": "adaptive",
+    "min_segments": 8,
+    "max_segments": 20,
+    "target_segments": 12,
+    "allow_less_than_target": true
+  },
+  "duration_policy": {
+    "min_segment_seconds": 6.0,
+    "max_segment_seconds": 18.0,
+    "target_segment_seconds": 10.0,
+    "target_final_duration_seconds": null,
+    "max_final_duration_seconds": 240.0,
+    "allow_shorter_if_quality_low": true
+  },
+  "selection_policy": {
+    "quality_first": true,
+    "avoid_overlap": true,
+    "avoid_repetition": true,
+    "prefer_semantic_boundary": true,
+    "min_cut_quality_score": 0.55,
+    "prefer_dense_highlights": true
+  },
+  "output_policy": {
+    "generate_final_review": true,
+    "generate_timeline": true,
+    "generate_subtitle": true,
+    "generate_review_sheet": true,
+    "title_card": "optional",
+    "transition": "short_fade"
+  },
+  "reasoning_summary": "User wants a coherent rough cut for quick review, not a fragmented highlight reel. Task type set to course_review_summary. Segment count adaptive with target 12, each 6-18 seconds, max final duration 240s. Selection prefers semantic boundaries and avoids repetition to ensure logical flow. Output includes timeline, subtitles, and review sheet.",
+  "planner_backend": "llm_api",
+  "planner_model": "deepseek-chat",
+  "planner_token_proxy": 1041,
+  "user_requested_segment_count": null,
+  "forced_segment_count": false,
+  "planner_fallback_used": false,
+  "planner_fallback_reason": null,
+  "planner_prompt_hash": "40fc579b6a603bdb",
+  "planner_raw_response_path": "outputs\\workflow_run_good_vtt_export\\planner_raw_response.json",
+  "task_plan_path": "outputs\\workflow_run_good_vtt_export\\task_plan.json"
+}

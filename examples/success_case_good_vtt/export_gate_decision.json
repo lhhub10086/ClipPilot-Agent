@@ -1,0 +1,14 @@
+{
+  "video_export_allowed": true,
+  "export_requested": true,
+  "judge_final_score": 0.95,
+  "judge_passed": true,
+  "content_valid": true,
+  "policy_valid": true,
+  "policy_violations": [],
+  "repair_rounds": 1,
+  "repair_loop_triggered": true,
+  "repair_success": true,
+  "blocked_reason": null,
+  "judge_final_reason": "The transcript is coherent, logically flows from introducing cache to explaining its mechanism and benefits, with a clear example and definitions. No major topic jumps, mid-sentence cuts, or missing context. Minor improvement possible by completing the example, but not required."
+}

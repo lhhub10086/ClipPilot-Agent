@@ -1,0 +1,16 @@
+PyYAML>=6.0
+requests>=2.31
+streamlit>=1.32
+plotly>=5.18
+matplotlib>=3.7
+imageio-ffmpeg>=0.4
+
+# Optional real-video backends. Install only when needed:
+# opencv-python
+# moviepy
+# faster-whisper
+# paddleocr
+# pytesseract
+# scenedetect
+# sentence-transformers
+# h5py

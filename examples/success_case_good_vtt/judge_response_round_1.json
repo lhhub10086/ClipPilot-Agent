@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "score": 0.92,
+  "reason": "The rough-cut transcript is highly coherent, with logical progression from basic speed improvements to advanced techniques like caching, pipelining, and multi-core processors. Transitions are smooth, no mid-sentence cuts or missing context, and the narrative flows naturally for student review.",
+  "major_problems": [],
+  "segment_feedback": [
+    {
+      "segment_id": "segment_001",
+      "keep": true,
+      "reason": "Effective hook that engages viewers with relatable gigahertz speeds.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_002",
+      "keep": true,
+      "reason": "Clearly explains early transistor improvements and need for further techniques.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_003",
+      "keep": true,
+      "reason": "Concrete division example illustrates complexity-for-speed tradeoff well.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_004",
+      "keep": true,
+      "reason": "Shows instruction set growth with MMX/SSE, maintaining backward compatibility.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_005",
+      "keep": true,
+      "reason": "Introduces memory bottleneck with clear analogy and explanation.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_006",
+      "keep": true,
+      "reason": "Explains cache concept, block transfers, and hits/misses effectively.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_007",
+      "keep": true,
+      "reason": "Covers dirty bit and synchronization clearly with restaurant example.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_008",
+      "keep": true,
+      "reason": "Laundry analogy makes pipelining intuitive and explains throughput gain.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_009",
+      "keep": true,
+      "reason": "Addresses pipeline hazards and out-of-order execution clearly.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_010",
+      "keep": true,
+      "reason": "Explains branch prediction and speculative execution with high accuracy.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_011",
+      "keep": true,
+      "reason": "Introduces superscalar and multi-core processors, showing parallel execution.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    },
+    {
+      "segment_id": "segment_012",
+      "keep": true,
+      "reason": "Summarizes evolution with supercomputer example, tying back to main theme.",
+      "needs_expand_before": false,
+      "needs_expand_after": false
+    }
+  ],
+  "repair_instruction": {
+    "drop_segments": [],
+    "expand_segments": [],
+    "insert_bridges": [],
+    "switch_to_single_topic": false
+  }
+}

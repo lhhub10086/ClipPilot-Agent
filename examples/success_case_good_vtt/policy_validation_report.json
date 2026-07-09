@@ -1,0 +1,9 @@
+{
+  "policy_valid": true,
+  "final_duration_seconds": 57.52,
+  "max_final_duration_seconds": 240.0,
+  "max_segment_seconds": 18.0,
+  "selected_segment_count": 6,
+  "violations": [],
+  "recommendation": "proceed"
+}

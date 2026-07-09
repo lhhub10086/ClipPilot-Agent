@@ -1,0 +1,15 @@
+# Test-only configuration. Mock behavior must be explicit and recorded in trace/summary.
+mock_mode: true
+llm:
+  required: false
+  provider: mock
+  model: mock-llm
+  api_key_env: LLM_API_KEY
+  base_url_env: LLM_BASE_URL
+asr:
+  enabled: false
+workflow:
+  default_policy_path: configs/workflow_policy.yaml
+  export_video_by_default: false
+  judge_threshold: 0.75
+  max_repair_rounds: 3
