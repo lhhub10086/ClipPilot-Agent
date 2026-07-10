@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 
-OUT = Path("outputs/workflow_run")
+OUT = Path("tests/fixtures/bad_transcript_run")
 
 
 def test_bad_transcript_run_stops_before_multi_agent_loop():

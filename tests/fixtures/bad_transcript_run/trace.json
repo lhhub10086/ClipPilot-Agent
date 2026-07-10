@@ -1,0 +1,64 @@
+{
+  "steps": [
+    {
+      "step_name": "input_validation",
+      "tool_name": "input_validation",
+      "success": true,
+      "input_summary": {},
+      "output_summary": {"success": true},
+      "output_path": "outputs/workflow_run/input_validation.json",
+      "error": null,
+      "duration_seconds": 0.001
+    },
+    {
+      "step_name": "intent_parse",
+      "tool_name": "intent_parse",
+      "success": true,
+      "input_summary": {},
+      "output_summary": {"success": true},
+      "output_path": "outputs/workflow_run/intent_parse.json",
+      "error": null,
+      "duration_seconds": 0.001
+    },
+    {
+      "step_name": "subtitle_parse",
+      "tool_name": "subtitle_parse",
+      "success": true,
+      "input_summary": {},
+      "output_summary": {"success": true},
+      "output_path": "outputs/workflow_run/subtitle_parse.json",
+      "error": null,
+      "duration_seconds": 0.001
+    },
+    {
+      "step_name": "transcript_quality_check",
+      "tool_name": "transcript_quality_check",
+      "success": true,
+      "input_summary": {},
+      "output_summary": {"success": true},
+      "output_path": "outputs/workflow_run/transcript_quality_check.json",
+      "error": null,
+      "duration_seconds": 0.001
+    },
+    {
+      "step_name": "export_gate_decision",
+      "tool_name": "export_gate_decision",
+      "success": true,
+      "input_summary": {},
+      "output_summary": {"success": true},
+      "output_path": "outputs/workflow_run/export_gate_decision.json",
+      "error": null,
+      "duration_seconds": 0.001
+    },
+    {
+      "step_name": "artifact_validation",
+      "tool_name": "artifact_validation",
+      "success": true,
+      "input_summary": {},
+      "output_summary": {"success": true},
+      "output_path": "outputs/workflow_run/validation_report.json",
+      "error": null,
+      "duration_seconds": 0.001
+    }
+  ]
+}

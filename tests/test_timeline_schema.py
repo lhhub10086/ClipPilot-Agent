@@ -5,7 +5,7 @@ from clip_pilot.schemas import validate_timeline
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "outputs" / "workflow_run"
+OUT = ROOT / "tests" / "fixtures" / "bad_transcript_run"
 
 
 def test_timeline_schema_and_assets():

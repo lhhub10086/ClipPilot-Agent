@@ -1,0 +1,32 @@
+{
+  "run_completed": true,
+  "input_valid": true,
+  "transcript_valid": false,
+  "selected_scope_lexical_valid": false,
+  "content_coherence_valid": false,
+  "task_coverage_valid": false,
+  "content_sufficiency_valid": false,
+  "content_valid": false,
+  "policy_valid": false,
+  "media_valid": false,
+  "video_export_allowed": false,
+  "video_exported": false,
+  "harness_behavior_valid": true,
+  "automated_validation_passed": false,
+  "human_review_status": "pending",
+  "production_ready": false,
+  "blocked_reason": "transcript_quality_failed",
+  "checks": [
+    {"name": "trace_exists", "passed": true},
+    {"name": "workflow_summary_exists", "passed": true},
+    {"name": "transcript_quality_report_exists", "passed": true},
+    {"name": "transcript_quality_step_recorded", "passed": true},
+    {"name": "transcript_valid", "passed": false},
+    {"name": "selector_not_run_when_transcript_invalid", "passed": true},
+    {"name": "editor_not_run_when_transcript_invalid", "passed": true},
+    {"name": "judge_not_run_when_transcript_invalid", "passed": true},
+    {"name": "no_video_export_when_transcript_invalid", "passed": true}
+  ],
+  "trace_errors": [],
+  "media_probes": {}
+}

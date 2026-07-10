@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "outputs" / "workflow_run"
+OUT = ROOT / "tests" / "fixtures" / "bad_transcript_run"
 
 
 def test_selected_segments_not_primary_output():
@@ -12,4 +12,3 @@ def test_selected_segments_not_primary_output():
     assert "selected_segment" not in primary
     assert "assets/selected_segments" not in primary
     assert "assets/selected_segments/" in summary["intermediate_assets"]
-

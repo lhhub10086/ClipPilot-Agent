@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def test_final_review_visual_validation_must_pass():
-    report = json.loads(Path("outputs/workflow_run/validation_report.json").read_text(encoding="utf-8"))
+    report = json.loads(Path("tests/fixtures/bad_transcript_run/validation_report.json").read_text(encoding="utf-8"))
     if "final_review_visual_valid" not in report.get("checks", {}):
         return
     checks = report["checks"]

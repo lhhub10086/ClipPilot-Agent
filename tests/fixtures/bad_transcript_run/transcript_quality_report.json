@@ -1,0 +1,9 @@
+{
+  "transcript_valid": false,
+  "quality_score": 0.31,
+  "major_issues": [
+    "garbled_text",
+    "subtitle_segments_too_fragmented"
+  ],
+  "recommendation": "manual_subtitle_required"
+}

@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 def test_validation_report_uses_separate_status_fields():
-    report = json.loads(Path("outputs/workflow_run/validation_report.json").read_text(encoding="utf-8"))
+    report = json.loads(Path("tests/fixtures/bad_transcript_run/validation_report.json").read_text(encoding="utf-8"))
     for key in [
         "run_completed",
         "input_valid",

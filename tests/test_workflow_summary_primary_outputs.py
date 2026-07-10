@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "outputs" / "workflow_run"
+OUT = ROOT / "tests" / "fixtures" / "bad_transcript_run"
 
 
 def test_workflow_summary_primary_outputs():

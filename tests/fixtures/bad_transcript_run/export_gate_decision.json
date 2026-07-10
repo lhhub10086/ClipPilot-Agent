@@ -1,0 +1,9 @@
+{
+  "video_export_allowed": false,
+  "video_exported": false,
+  "content_valid": false,
+  "policy_valid": false,
+  "blocked_reason": "transcript_quality_failed",
+  "export_requested": false,
+  "repair_rounds": 0
+}

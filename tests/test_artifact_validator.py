@@ -5,7 +5,7 @@ from clip_pilot.harness import ArtifactValidator
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "outputs" / "workflow_run"
+OUT = ROOT / "tests" / "fixtures" / "bad_transcript_run"
 
 
 def test_artifact_validator_passes_workflow_run():

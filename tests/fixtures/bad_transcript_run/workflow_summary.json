@@ -1,0 +1,24 @@
+{
+  "multi_agent_loop": true,
+  "transcript_valid": false,
+  "semantic_timeline_valid": false,
+  "video_export_allowed": false,
+  "video_exported": false,
+  "automated_validation_passed": false,
+  "human_review_status": "pending",
+  "production_ready": false,
+  "primary_outputs": [
+    "transcript_quality_report.json",
+    "export_gate_decision.json"
+  ],
+  "supporting_outputs": [
+    "trace.json",
+    "validation_report.json",
+    "workflow_summary.json"
+  ],
+  "intermediate_assets": [
+    "assets/selected_segments/",
+    "assets/normalized_segments/",
+    "assets/temp_chunks/"
+  ]
+}

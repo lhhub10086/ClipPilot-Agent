@@ -5,8 +5,8 @@ from pathlib import Path
 
 
 def test_semantic_timeline_validation_passes_current_dry_run():
-    report = json.loads(Path("outputs/workflow_run/validation_report.json").read_text(encoding="utf-8"))
-    summary = json.loads(Path("outputs/workflow_run/workflow_summary.json").read_text(encoding="utf-8"))
+    report = json.loads(Path("tests/fixtures/bad_transcript_run/validation_report.json").read_text(encoding="utf-8"))
+    summary = json.loads(Path("tests/fixtures/bad_transcript_run/workflow_summary.json").read_text(encoding="utf-8"))
     checks = report["checks"]
     assert summary["multi_agent_loop"] is True
     assert "semantic_timeline_valid" in summary

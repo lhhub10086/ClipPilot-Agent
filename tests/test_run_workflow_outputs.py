@@ -6,7 +6,7 @@ from clip_pilot.schemas import REQUIRED_TRACE_STEPS, validate_edit_plan, validat
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "outputs" / "workflow_run"
+OUT = ROOT / "tests" / "fixtures" / "bad_transcript_run"
 
 
 def test_run_workflow_outputs_exist():
